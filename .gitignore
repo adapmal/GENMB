@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Testes e caches
+.pytest_cache/
+.cache/
+playwright-report/
+test-results/
+
+# Editores
+.vscode/
+.idea/
+
+# Windows e macOS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs e temporários
+*.log
+temp/
+tmp/
+
+# Saídas geradas
+output/
