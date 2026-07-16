@@ -1,0 +1,1858 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": 1,
+      "name": "Vaticannews.va/pt/",
+      "enabled": true,
+      "update_date": 1782785329574,
+      "sections": [
+        {
+          "code": ".radio__row--content,\n.RCS.radio__row.live,\n#readerContainer,\n#header-main > div > nav > div.navBtn,\n#header-main > div > div > section.searchBar > div.navBtn,\n#main-container > main > div.sidebar-main.sidebar_v2.sidebarPrimary{\n    display: none !important;\n}\n\n#main-container > main > div.content__inner.content__inner--hasSidebar > article > figure > span {\n    font-size: 10px !important;\n}\n.header-main__logo img {\n    height: 30px\n}\n#main-container > main > div.content__inner.content__inner--hasSidebar > article > h1 {\n    font-size: 27px;\n    line-height: 28px;\n}\n#main-container > main > div.content__inner.content__inner--hasSidebar > article > div.article__text {\n    font-size: 22px;\n    line-height: 23px;\n}\nbody {\n    padding-top: 35px !important;\n}\n\np{\n    text-align: left !important;\n}\n\n.container, .content {\n  max-width: 100% !important;\n  overflow-x: auto !important; /* or auto if you want scroll */\n}\n\nbody {\n  zoom: 1 !important; /* or remove the inline style */\n}\n\n.content {\n  width: 100% !important;\n  max-width: 100% !important;\n  flex: 1 1 100%;\n}\n.sidebar, .right-column, .ad-container {\n  display: none !important;\n}\n.container {\n  display: block !important;\n}\nbody {\n  zoom: 1 !important;\n  overflow-x: hidden !important;\n}\n\nh1, h2 {\n    font-family: Museo Sans Cyrl;\n    font-style: normal;\n    margin: 12px;\n}\n\np {\n    line-height: 40px !important;\n}",
+          "domains": [],
+          "url_prefixes": [
+            "https://www.vaticannews.va/pt/"
+          ],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "name": "a12.com",
+      "enabled": true,
+      "update_date": 1763469848556,
+      "sections": [
+        {
+          "code": "body > div.grid__line.grid__line--header.grid__line--active > div.grid__container.grid__container--top-margin.grid__container--bottom-margin > div > div.widget.header.grid-stack-item.ui-draggable-disabled.ui-resizable-disabled > div > header > div.header__primary.is-home--false > div.container > div.left,\nbody > div.grid__line.grid__line--header.grid__line--active > div.grid__container.grid__container--top-margin.grid__container--bottom-margin > div > div.widget.header.grid-stack-item.ui-draggable-disabled.ui-resizable-disabled > div > header > div.header__primary.is-home--false > div.container > div.right,\nbody > div.grid__line.grid__line--header.grid__line--active > div.grid__container.grid__container--top-margin.grid__container--bottom-margin > div > div.widget.header.grid-stack-item.ui-draggable-disabled.ui-resizable-disabled > div > header > div.header__secondary,\nbody > div.font-size-ctrl,\n#gb-widget-6981,\n#audima-wrapper,\nbody > div.grid__line.grid__line--header.grid__line--active > div.grid__container.grid__container--top-margin.grid__container--bottom-margin > div > div.widget.header.grid-stack-item.ui-draggable-disabled.ui-resizable-disabled > div > header > div.header__mobo-upper\n{\n    display: none !important;\n}\n\n:root {\n    --font-size-title: 116px;\n    --font-size-feature: 30px;\n    --font-size-subfeature: 21px;\n    --font-size-subtitle: 19px;\n    --font-size-paragraph: 17px;\n    --font-size-small: 15px;\n    --font-size-minimal: 13px;\n    --font-size-infos: 11px;\n}\n\n\n\niframe {\n    --display: none;\n    --visibility: hidden;\n}\n\nbody \n{\n    --background-color: #ffffff;\n    --padding-top: 118px;\n    --height: 100vh;\n}\n\nbody \n{\n    --padding-top: 82.087509px;\n    --text-align: left !important;\n}\n\nh1 \n{\n    --font-size-feature: 41px;\n}\n\np\n{\n    --font-size-paragraph: 34px;\n    --text-align: left !important;\n    --line-height: 1.2em;\n}\n\nbody > div.grid__line.grid__line--reserved.grid__line--active > div.grid__container.grid__container--center.grid__container--top-margin.grid__container--bottom-margin > div > div.wg-post.wg-post--body > div > p\n{\n    text-align: left !important;\n    line-height: 1.2em !important;\n}\n\n\nelement.style {\n    font-size: 35.996px;\n}",
+          "domains": [
+            "a12.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": [
+        "Contém muitas variáveis CSS; algumas podem não alterar propriedades diretamente."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "g1.globo.com",
+      "enabled": true,
+      "update_date": 1783565271859,
+      "sections": [
+        {
+          "code": "body > main > article > section {\n    --font-line-height-spaced: 130%;\n}\n\nglobo-amp-article-title {\n    --glb-sp-content-head-mg-top: 13px;\n}\n\n#glbbarrawidget > nova-barra-globocom,\nbody > div.glb-grid > div.cb-top-ad.cb-top-ad--cover,\n#cb_main_container > div > div.hero.codex-container.codex-container--small-fluid.codex-container--large-18.has-highlights.hero--complete.cover-hidden > div.tag-share-wrapper,\n#glbbarrawidget,\nbody > div.glb-grid > main > div.mc-article-header > div.glb-share-bar.content__share-bar,\n#header-produto > div.gui-color-primary-bg.header-principal.header-navegacao-color > div > div > div.menu-area > div,\n#busca-campo,\nbody > main > article > header > div > div.glb-share-bar.content__share-bar > div,\n#frmBusca > fieldset > label > svg,\nbody > div.glb-grid > main > div.row.glb-mc-banner-top,\n#header-produto > div.gui-color-primary-bg.header-principal.header-navegacao-color > div > div > div.search-area.header-navegacao-color,\n#QSIFeedbackButton-btn > img,\n#glbbarrawidget,\n#glbbarrawidget > nova-barra-globocom,\n#glb-topo > div,\n#QSIFeedbackButton-btn > img,\nbody > div.glb-grid > main > div.regua-de-cotacao-section > div,\n#codex-touchpoint-login > div > div.cxm-touchpoint-login.cxm-dropdown__trigger > div,\n#header-produto > div.gui-color-primary-bg.header-principal.header-navegacao-color > div > div > div.header-navegacao-left > div > div > span,\n#codex-touchpoint-login > div,\n#header-produto > div.gui-color-primary-bg.header-principal.header-navegacao-color > div > div > div.header-navegacao-left\n{\n    display: none !important;\n}\n\n#cb_main_container {\n    font-size: 56px !important;\n    padding: 15px 24px 24px !important;\n}\n\n.header-title-content {\n    font-size: 0px;\n    height: 48%;\n    width: 138%;\n    display: inline-block;\n    vertical-align: middle;\n    padding: 0 16px;\n}\n\nbody > main > article > header > h1 {\n    --glb-sp-content-head-mg-top: 9px !important;\n}\n\nbody > div.glb-grid > main > div.mc-article-header > div.row.content-head.mc-column.non-featured {\n    --glb-sp-head-mg-v: -9px !important;\n}\n\n\nmc-article-header\n{\n  --glb-sp-head-mg-v:7px !important;\n}\n\nbody > div.glb-grid > main > div.mc-article-body\n{\n--g-fnt-lh-40: 24px !important;\n}\n\n\n[id^=\"chunk-\"] > div {\n    max-width: none !important;\n    width: 90% !important;\n    margin: 0 auto !important;\n    padding: 0 2% !important;\n}\n\n\n/* Remove blockquote styling */\nblockquote {\n  border: none !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  background: none !important;\n  box-shadow: none !important;\n}",
+          "domains": [
+            "g1.globo.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": [
+        "Contém muitas variáveis CSS; algumas podem não alterar propriedades diretamente."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "jornal.usp.br",
+      "enabled": true,
+      "update_date": 1734984937148,
+      "sections": [
+        {
+          "code": "#site-header > header > div.elementor-element.elementor-element-5c78470.e-flex.e-con-boxed.e-con.e-parent > div > div.elementor-element.elementor-element-6f412a5.e-con-full.e-flex.e-con.e-child,\n#site-header > header > div.elementor-element.elementor-element-3dd640f.e-flex.e-con-boxed.e-con.e-parent > div > div,\n#post-data-id > div,\n#post-819974 > ul,\n#main > header\n{\ndisplay:none\n}\n\np\n\n{\n     font-size: 26px !important;\n    line-height: 1.3 !important;\n\n}",
+          "domains": [
+            "jornal.usp.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": [
+        "Contém seletores específicos de uma matéria e pode exigir generalização."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "terra.com.br",
+      "enabled": true,
+      "update_date": 1774529222742,
+      "sections": [
+        {
+          "code": "#zaz-app-t360-navbar > div.navbar > header > div > div.navbar__right,\n#article > ul,\n#article > div.article__header > div.app-t360-table__header-exclusive,\n#zaz-app-t360-navbar > div.navbar > header > div > div.navbar__left > div,\n#article > div.article__content-wrapper > div > div.article__content--left > div.article__header__content > div.article__header__content--left > div.article__header__info > div.t360-sharebar__wrapper {\n    display: none !important\n}\n\n#zaz-app-t360-navbar > div.navbar > header > div > div.navbar__left > a {\n    width: 87px !important;\n    height: 23px !important;\n}\n\n#zaz-app-t360-navbar > div.navbar > header {\n    height: 37px !important;\n}\n\n#article > div.article__content-wrapper > div > div.article__content--left > div.article__content--body.article__content--internal,\n#article > div.article__content-wrapper > div > div.article__content--left > div.article__content--body.article__content--internal > p{\n\n    line-height: 127% !important;\n    font-size: 17px !important;\n}\n\n\n.article__header__headline h1 {\n    font-family: var(--font-default-serif);\n    font-weight: 700;\n    margin: 0px 167px 16px 0;\n    font-size: 32px !important;\n    line-height: 40px !important;\n}\n\nhtml[data-range=medium] .article__content, html[data-range=small] .article__content {\n    width: auto;\n    margin: 0 0px;\n    flex-flow: column;\n}\nhtml[data-range=medium] .article__content, html[data-range=small] .article__content {\n    width: auto;\n    margin: 2px -15px;\n    flex-flow: column;\n}\n\n.article__content--body .author, .article__content--body .text, .article__content--body blockquote .text, .article__content--body blockquote p, .article__content--body p {\n    clear: none;\n    margin: 0px 4px 0px 2px;\n    line-height: 150% !important;\n    word-wrap: break-word;\n    font-size: 20px !important;\n}\n\n.article__header__subtitle h2 {\n    font-weight: 400;\n    margin-bottom: 8px;\n    line-height: 26px;\n    font-size: 20px;\n}",
+          "domains": [
+            "terra.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 6,
+      "name": "www.correiobraziliense.com.br",
+      "enabled": true,
+      "update_date": 1783585359793,
+      "sections": [
+        {
+          "code": "body,\n#digital > div.cb-content-materia,\nbody > div.cb-main-wrap > div.content-materia > div.wrapper > section\n{\nline-height: 1.2 !important;\n}\n\nbody > div.site > div.amp-pre-content{\n    margin: -2px 0 12px !important;\n}\n\n.content-materia .wrapper .body-content-cb article.article p {\n    padding: 0px 16px;\n    font-size: 1.4rem !important;\n    margin: 0 0 1.4rem;\n\n}\n\n.content-materia .wrapper .body-content-cb article.article p {\n    font-size: 1.2rem;\n    line-height: 1.3;\n    margin: 0 0 1.8rem;\n    color: rgba(0,0,0,.87);\n    font-family: utopiaregular,serif;\n    -webkit-box-sizing: border-box;\n    box-sizing: border-box;\n}\n\n.title .content-title .wrapper .materia-title h1 {\n    font-weight: 700;\n    line-height: 1.3;\n    letter-spacing: -.02rem;\n    color: rgba(0,0,0,.87);\n    margin: -23px 0 4px;\n    font-size: 30px;\n}\n\n#div-hidden-amp, \nbody > div.site > div.amp-content > ul,\ndiv.publicidade-ancorads,\n#digital > div.entry-headerBox > div.socialBarWrapper,\n#digital > div.entry-headerBox,\nbody > div.cb-main-wrap > nav > div > div > div.items,\nbody > div.cb-main-wrap > nav > div > div > div.social,\n#socialBar,\n#digital > div.cb-content-materia > div.cb-container-whatsapp,\n#digital > div.orientacao_autor > div.google-discovery,\n#rasgado-1,\nbody > div.cb-main-wrap > div.title > div.content-title > div.rasgado-materia,\nbody > div.cb-main-wrap > div.title > div.breadcrumps.container,\nbody > div.cb-main-wrap > div.title > div.content-title > div.wrapper > small\n{\n    display: none !important\n}",
+          "domains": [
+            "correiobraziliense.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 7,
+      "name": "osaopaulo.org.br",
+      "enabled": true,
+      "update_date": 1761784335704,
+      "sections": [
+        {
+          "code": "#mobile-header > div > button,\n#mobile-header > div > div.menu-bar-items > span > a,\n#mobile-header > div > button > span.gp-icon.icon-menu-bars,\n#post-97872 > div > header > div > div > div.gb-grid-column.gb-grid-column-1b95f257 > div,\n#right-sidebar,\n#post-115877 > div > header > div > div.gb-element-80433004,\nbody > header > div > div.gb-element-6800f252,\n#post-115877 > div > header > div\n\n{\n    display: none !important\n}\n\n\n#mobile-header > div > div.site-logo.mobile-header-logo > a > img {\n    height: 38px !important\n}\n#mobile-header > div > div.site-logo.mobile-header-logo {\n    height: 28px !important;\n}\n\np {\n    line-height: 1.3 !important;\n    font-size: 20px !important;\n}\n\n/* Remove right sidebar from layout logic*/\nbody.right-sidebar {\n    grid-template-columns: 1fr !important;\n    /* If grid is used */\n}\n\n/* Make the main content take up full width */\n.site-content {\n    display: block !important;\n    /* Stop using flex layout */\n    width: 100% !important;\n    max-width: none !important;\n    padding-right: 0 !important;\n}\n\n.gb-site-header {\n  height: 27px !important;\n  overflow: hidden;\n}\n\n.gb-site-header * {\n  font-size: 6px !important;\n  margin: 0 !important;\n  padding: 0 !important;\n}\n\n.gb-site-header img {\n  max-height: 26px !important;\n}\n\n.gb-element-54b3302f {\n  display: flex !important; /* aligns logos side by side */\n  justify-content: center !important;\n  align-items: center !important;\n  gap: 20px !important; /* optional spacing between logos */\n  padding: 0 !important;\n  margin: 0 !important;\n  height: 28px !important; /* adjust as needed */\n}\n\n.gb-element-54b3302f img {\n  max-height: 14px !important;\n  width: auto !important;\n}",
+          "domains": [
+            "osaopaulo.org.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": [
+        "Contém seletores específicos de uma matéria e pode exigir generalização."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "agenciabrasil.ebc.com.br",
+      "enabled": true,
+      "update_date": 1772098460046,
+      "sections": [
+        {
+          "code": "#menu-btn-mob,\n#btn-busca > svg,\n#header-site > div.header-editorias.rowflex.full-width > div,\nbody > div.enabled > div.active,\nbody > div.enabled > div.active > img.access-button,\nbody > div.enabled > div.active > img.pop-up,\n#node-1619030 > div.subheader > nav,\nbody > div.enabled,\n#header-site > div.header-ebc.full-width\n{\n   display:none !important\n}\n\n#header-site > div.header-veiculo.full-width > a > img,\n#header-site > div.header-veiculo.full-width > a\n {\nmax-width: 121px !important;\n}\n\n#node-1619030 > div.conteudo-noticia{\n    font-size: 18px !important;\n    line-height: 1.3 !important;\n}\n\n.conteudo-noticia p {\n    margin-top: 1.3rem;\n    color: #0c1a3d;\n    font-size: 18px;\n    font-weight: 400;\n    line-height: 1.5;\n}",
+          "domains": [
+            "agenciabrasil.ebc.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": [
+        "Contém seletores específicos de uma matéria e pode exigir generalização."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "www.brasildefato.com.br",
+      "enabled": true,
+      "update_date": 1766517376400,
+      "sections": [
+        {
+          "code": "#hamburguer,\n#search-icon,\n\nbody > div.jeg_viewport > div.jeg_navbar_mobile_wrapper > div.jeg_navbar_mobile > div > div > div > div.jeg_nav_col.jeg_nav_center.jeg_nav_grow > div > div.jeg_nav_item.jeg_button_4,\nbody > div.jeg_viewport > div.jeg_navbar_mobile_wrapper > div.jeg_navbar_mobile > div > div > div > div.jeg_nav_col.jeg_nav_left.jeg_nav_normal > div > div > a,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover > div.rc-anchor-normal-footer,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover,\nbody > div:nth-child(62) > div,\nbody > div.jeg_viewport > div.post-wrapper > div.post-wrap > div.jeg_main > div > div > div > div.jit-row > div.jeg_sidebar.jeg_sticky_sidebar.col-md-4 > div > div,\nbody > div.jeg_viewport > div.jeg_header_sticky > div.jeg_header.full > div > div > div > div > div.jeg_nav_col.jeg_nav_left.jeg_nav_grow > div > div:nth-child(3),\nbody > div.jeg_viewport > div.jeg_header_sticky > div.jeg_header.full > div > div > div > div > div.jeg_nav_col.jeg_nav_right.jeg_nav_normal,\n#menu-item-622507,\nbody > div.jeg_viewport > div.jeg_header_wrapper > div.jeg_header.normal > div.jeg_midbar.jeg_container.jeg_navbar_wrapper.normal > div > div > div.jeg_nav_col.jeg_nav_right.jeg_nav_normal > div,\nbody > div.jeg_viewport > div.jeg_header_wrapper > div.jeg_header.normal > div.jeg_midbar.jeg_container.jeg_navbar_wrapper.normal > div > div > div.jeg_nav_col.jeg_nav_left.jeg_nav_normal > div > div.jeg_nav_item.socials_widget.jeg_social_icon_block.nobg,\nbody > div.jeg_viewport > div.jeg_header_wrapper > div.jeg_header.normal > div.jeg_midbar.jeg_container.jeg_navbar_wrapper.normal > div > div > div.jeg_nav_col.jeg_nav_left.jeg_nav_normal > div > div.jeg_nav_item.jeg_nav_icon > a,\nbody > div.jeg_viewport > div.jeg_header_wrapper > div.jeg_header.normal > div.jeg_bottombar.jeg_navbar.jeg_container.jeg_navbar_wrapper.jeg_navbar_normal.jeg_navbar_normal > div,\nbody > div.jeg_viewport > div.post-wrapper > div.post-wrap > div.jeg_main > div > div > div > div.jit-row > div.jeg_sidebar.jeg_sticky_sidebar.col-md-4,\nbody > div.jeg_viewport > div.post-wrapper > div.post-wrap > div.jeg_main > div > div > div > div.jit-row > div.jeg_main_content.col-md-8 > div > div.jit_singlepost_container > div:nth-child(2) > div.entry-content.with-share > div.jeg_share_button.share-float.jeg_sticky_share.clearfix.share-monocrhome > div > div,\nbody > div.jeg_viewport > div.jeg_navbar_mobile_wrapper > div.jeg_navbar_mobile > div > div > div > div.jeg_nav_col.jeg_nav_center.jeg_nav_grow > div > div.jeg_nav_item.jeg_search_wrapper.jeg_search_popup_expand > a > i,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover > div.rc-anchor-normal-footer,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover > div.rc-anchor-normal-footer,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover,\nbody > iframe,\nbody > div:nth-child(72) > div > div.grecaptcha-logo,\nbody > div.jeg_viewport > div.jscroll-to-top.desktop.show,\nbody > div:nth-child(68) > div,\nbody > div.a2a_kit.a2a_kit_size_28.a2a_floating_style.a2a_default_style,\nbody > div.elementor.elementor-868042.elementor-location-single.post-906254.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-internacional.tag-cessar-fogo.tag-faixa-de-gaza-pt.tag-gaza.tag-genocidio.tag-palestina.autores-redacao.editores-raquel-setz.region-br > div > div > div.elementor-element.elementor-element-d852b9c.e-con-full.e-flex.e-con.e-child > div > div > div > span:nth-child(5),\nbody > header > div.elementor-element.elementor-element-8715d40.animated-slow.e-transform.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded.animated.fadeIn.elementor-sticky--effects.elementor-sticky.elementor-sticky--active.elementor-section--handles-inside > div > div.elementor-element.elementor-element-b6cdfd9.elementor-view-default.elementor-widget.elementor-widget-icon,\nbody > header > div.elementor-element.elementor-element-8715d40.animated-slow.e-transform.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded.animated.fadeIn.elementor-sticky--effects.elementor-sticky.elementor-sticky--active.elementor-section--handles-inside > div > div.elementor-element.elementor-element-ef04d1b.play-radio-stream.elementor-hidden-widescreen.elementor-hidden-desktop.elementor-hidden-laptop.elementor-hidden-tablet.elementor-widget.elementor-widget-button > div > div,\nbody > header > div.elementor-element.elementor-element-8715d40.animated-slow.e-transform.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded.animated.fadeIn.elementor-sticky--effects.elementor-sticky.elementor-sticky--active.elementor-section--handles-inside > div > div.elementor-element.elementor-element-be8ef9c.elementor-hidden-widescreen.elementor-hidden-desktop.elementor-hidden-laptop.elementor-hidden-tablet.elementor-view-default.elementor-widget.elementor-widget-icon > div,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover > div.rc-anchor-normal-footer,\nbody > div:nth-child(78) > div > div.grecaptcha-logo > iframe,\nbody > div.elementor.elementor-868042.elementor-location-single.post-906254.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-internacional.tag-cessar-fogo.tag-faixa-de-gaza-pt.tag-gaza.tag-genocidio.tag-palestina.autores-redacao.editores-raquel-setz.region-br > div > div > div.elementor-element.elementor-element-58902c4.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-8e74bee.e-con-full.e-flex.e-con.e-child > div.elementor-element.elementor-element-8136daa.elementor-widget.elementor-widget-theme-post-content > div.a2a_kit.a2a_kit_size_32.a2a_floating_style.a2a_vertical_style,\nbody > div:nth-child(77) > div > div.grecaptcha-logo,\nbody > div:nth-child(77) > div,\nbody > header > div.elementor-element.elementor-element-84095d3.elementor-hidden-mobile.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > div > div.elementor-element.elementor-element-dee3c6c.e-transform.e-flex.e-con-boxed.e-con.e-child > div > div.elementor-element.elementor-element-67cc3a3.e-flex.e-con-boxed.e-con.e-child > div > div.elementor-element.elementor-element-43d093b.play-audio-button.play-radio-stream.elementor-widget.elementor-widget-button\n{\n    display:none !important\n}\n\n\n#post > header > h1 {\n    font-size: 17.4px !important;\n}\n\n#post > div.content > div {\n    font: 1.5rem / 1.5 \"Merriweather\", \"Times New Roman\" !important;\n}\n\n.col-lg-1,\n.col-lg-10,\n.col-lg-11,\n.col-lg-12,\n.col-lg-2,\n.col-lg-3,\n.col-lg-4,\n.col-lg-5,\n.col-lg-6,\n.col-lg-7,\n.col-lg-8,\n.col-lg-9,\n.col-md-1,\n.col-md-10,\n.col-md-11,\n.col-md-12,\n.col-md-2,\n.col-md-3,\n.col-md-4,\n.col-md-5,\n.col-md-6,\n.col-md-7,\n.col-md-8,\n.col-md-9,\n.col-sm-1,\n.col-sm-10,\n.col-sm-11,\n.col-sm-12,\n.col-sm-2,\n.col-sm-3,\n.col-sm-4,\n.col-sm-5,\n.col-sm-6,\n.col-sm-7,\n.col-sm-8,\n.col-sm-9,\n.col-xs-1,\n.col-xs-10,\n.col-xs-11,\n.col-xs-12,\n.col-xs-2,\n.col-xs-3,\n.col-xs-4,\n.col-xs-5,\n.col-xs-6,\n.col-xs-7,\n.col-xs-8,\n.col-xs-9 {\n    position: relative;\n    min-height: 1px;\n    padding-right: 0;\n    padding-left: 0;\n}\n\n.single-post .jit_singlepost_container,\n.single-podcast .jit_singlepost_container,\n.single-column .jit_singlepost_container {\n    padding: 5px !important;\n}\n\n\n.single .content-inner {\n    color: #333;\n    font-size: 19px;\n    line-height: 1.525em;\n    word-break: normal;\n    -ms-word-wrap: break-word;\n    word-wrap: break-word;\n}\n\n.single-post .jeg_content .jit_singlepost_container .content-inner, .single-podcast .jeg_content .jit_singlepost_container .content-inner, .single-column .jeg_content .jit_singlepost_container .content-inner \n{\n    font-size: 23px;\n    font-family: \"Literata\",sans-serif !important;\n    color: #101119;\n}",
+          "domains": [],
+          "url_prefixes": [
+            "https://www.brasildefato.com.br/"
+          ],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 10,
+      "name": "news.un.org",
+      "enabled": true,
+      "update_date": 1775095948363,
+      "sections": [
+        {
+          "code": "#header__top > div,\n#header__main > div > div > div.col-auto.d-flex.align-self-stretch,\n#CollapsingNavbar,\n#page > div.container.py-s,\nbody > div.dialog-off-canvas-main-canvas > div.minimal-share-panel,\n#header__main > div > div > div.col-auto.d-flex.align-self-stretch > p,\n#header__main > div > div > div.col-auto.d-flex.align-self-stretch > p,\n#header__main > div > div > div.col-auto.d-flex.align-self-stretch > button.search-toggler.align-self-center.d-none.d-lg-flex.btn.border-0.gap-0.shadow-none.text-uppercase.ms-g.mb-0.p-0.collapsed,\n#navbar-main > div,\nbody > div.dialog-off-canvas-main-canvas > div.minimal-share-panel > p,\n#block-un-base-theme-branding > div.site-name-slogan.flex-grow-1.d-flex.flex-column.justify-content-center.border-start.border-1.border-black.ms-m.ps-m,\n#block-un-base-theme-branding > div.site-name-slogan.flex-grow-1.d-flex.flex-column.justify-content-center.border-start.border-1.border-black.ms-m.ps-m,\n#header__bottom,\n#main-container > div > div.minimal-share-wrapper.col-lg-3,\n#block-un-base-theme-branding > div.site-name-slogan.flex-grow-1.d-flex.flex-column.justify-content-center.border-start.border-1.border-black.ms-m.ps-m > div.site-name,\n#header__main > div > div > div.col-auto.d-flex.align-self-stretch,\n#header__main > div > div > div.col-auto.d-flex.align-self-stretch > button.navbar-toggler.collapsed.align-self-start.d-lg-none.border-0,\nbody > nav {\n    display: none !important\n}\n\n#header__main {\n\n    padding-top: 0.3rem !important;\n    padding-bottom: 0.3rem !important;\n}\n\n#block-un-base-theme-branding > div.site-logo.flex-shrink-0 > a > img {\n    min-height: 1.875rem !important;\n}\n\nclearfix text-formatted field field--name-field-text-column field--type-text-long field--label-hidden field__item {\n    --bs-body-font-size: 1.3rem !important;\n    --bs-body-line-height: 23.9px !important;\n}\n\n\n/* Hide the share column */\n.minimal-share-wrapper {\n    display: none !important;\n}\n\n/* Expand the main content to full width */\n.main-content {\n    width: 100% !important;\n    max-width: 100% !important;\n}",
+          "domains": [
+            "news.un.org"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 11,
+      "name": "sbtnews.sbt.com.br",
+      "enabled": true,
+      "update_date": 1743194971799,
+      "sections": [
+        {
+          "code": "body > main > div.fixedHeader > header > div.app-header-container > div.app-hc-left-component > div > div > div > svg,\n#header-search-search-icon > svg,\nbody > main > div.article_article_body__y_DJ0 > div:nth-child(2) > div,\n#bot_icon > tbody,\n#bot_icon_right {\n    display: none !important\n}\n\nbody > main > div.fixedHeader > header > div.app-header-container {\n    min-height: 34px !important;\n}\n\nbody > main > div.fixedHeader > header > div.app-header-container > div.app-hc-center-component > a > div > div {\n\n    width: 23px !important;\n    height: 23px !important;\n}\nbody > main > div.fixedHeader > header > div.app-header-container > div.app-hc-center-component > a > div > span {\n    font-size: 18px !important;\n}\n\nbody > main > div.article_article_body__y_DJ0 > div.article_article_main__Qt3HA > section > section:nth-child(1) > article > div.article_article_bodyArticleContainer__sDVOE > div.article_article_contentContainer__PhKv9 > div > div:nth-child(2) {\n    --font-size-body-text: 20px !important;\n    --line-height-body-text: 24px !important;\n}\n\n\n.uiArticleHeadline {\n    color: #1a1a1a;\n    font-size: 42px;\n    font-style: normal;\n    font-weight: 700;\n    line-height: 50px;\n    margin: 15px 288px 6px 0px;\n}\n\n.body_stylesheet, .body_stylesheet blockquote, .body_stylesheet h1, .body_stylesheet h2, .body_stylesheet h3, .body_stylesheet h4, .body_stylesheet h5, .body_stylesheet h6, .body_stylesheet li, .body_stylesheet p {\n\n    width: 79%;\n}\n\n:root {\n    --font-size-body-text: 18px;\n    --line-height-body-text: 25px;\n}",
+          "domains": [
+            "sbtnews.sbt.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 12,
+      "name": "noticias.cancaonova.com",
+      "enabled": true,
+      "update_date": 1766489753789,
+      "sections": [
+        {
+          "code": "#user-container > div.login-unico > button,\n#cookie-law-info-again,\n#for_read_more,\n#anchor-globalbar,\n#content > div > section > div > hgroup > nav > ul,\n#share-buttons,\n#menu-primario,\n#menu-secundario,\n#menu-especiais-papa,\n#content > div > section > div.menu-especiais-papa-container,\n#content > div > section > div.row > hgroup > h2,\n#pojo-a11y-toolbar,\nbody > div.enabled > div.active > img.vp-access-button,\nbody > div.enabled\n{\n    display: none !important;\n}\n\n#header-content > div.logo-cancaonova > a > img {\n    width: 106% !important;\n}\n\n#header-content > div.logo-cancaonova > a {\n    width: 42px !important;\n    height: 36px !important;\n}\n\n#signature > h1 {\n    height: 26px !important;\n}\n\n#header-content {\n    height: 37px !important;\n}\n\n#wrap {\n    margin-top: 0px !important;\n}\n\n#content > div > section > div > hgroup > h2 {\n    margin: -10px 0 0 !important;\n}\n\n#content > div > section > div > hgroup > h1 {\n    line-height: 56px !important;\n    font-size: 51px !important;\n}\n\n#content > div > section > div > hgroup > h2 {\n    line-height: 28px !important;\n    font-size: 13px !important;\n}\n\np {\n    font-size: 35px !important;\n    line-height: 45px !important;\n}\n\n#wrap\n{\n    background: center top no-repeat !important;\n    background-size: 0px auto !important;\n    padding-top: 0px !important;\n}\n\n\n#signature > h1 > a > span.title-site\n{\n    margin: 8px;\n    font-size: 21.6px;\n}\n\n.category-francisco #wrap {\n    background-size: 1140px auto !important;\n    padding-top: 74px !important;\n}",
+          "domains": [
+            "noticias.cancaonova.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 13,
+      "name": "www.cnbb.org.br",
+      "enabled": true,
+      "update_date": 1772711361523,
+      "sections": [
+        {
+          "code": "#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-16ccd07.elementor-hidden-desktop.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div,\n#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f22612b.elementor-section-stretched.elementor-section-full_width.elementor-hidden-desktop.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div > div > div > section > div > div > div.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-df2fa17 > div > div,\n#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-fce958b.elementor-section-stretched.elementor-section-full_width.elementor-hidden-desktop.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div > div > div > section > div > div > div.elementor-column.elementor-col-33.elementor-inner-column.elementor-element.elementor-element-3924849 > div > div,\n#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-fce958b.elementor-section-stretched.elementor-section-full_width.elementor-hidden-desktop.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div > div > div > section > div > div > div.elementor-column.elementor-col-33.elementor-inner-column.elementor-element.elementor-element-26760b9 > div > div,\n#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-fce958b.elementor-section-stretched.elementor-section-full_width.elementor-hidden-desktop.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div > div > div > section > div > div > div.elementor-column.elementor-col-33.elementor-inner-column.elementor-element.elementor-element-26760b9 > div > div > div > div > form > div > div > i,\n#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-ece8432.elementor-section-stretched.elementor-section-full_width.elementor-hidden-tablet.elementor-hidden-phone.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div.elementor-container.elementor-column-gap-no > div > div > div > div > section > div.elementor-container.elementor-column-gap-no > div > div.elementor-column.elementor-col-33.elementor-inner-column.elementor-element.elementor-element-2010b9b > div > div,\n#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f22612b.elementor-section-stretched.elementor-section-full_width.elementor-hidden-desktop.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div > div > div > section > div > div > div.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-df2fa17 > div,\n#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f22612b.elementor-section-stretched.elementor-section-full_width.elementor-hidden-desktop.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div > div > div > section > div > div > div > div > div > div > div > div,\n#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f22612b.elementor-section-stretched.elementor-section-full_width.elementor-hidden-desktop.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div > div > div > section > div > div > div > div > div,\n#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-fce958b.elementor-section-stretched.elementor-section-full_width.elementor-hidden-desktop.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > section > div > div > div.elementor-column.elementor-col-33.elementor-inner-column.elementor-element.elementor-element-3924849,\n#page > div.elementor.elementor-24.elementor-location-header > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-fce958b.elementor-section-stretched.elementor-section-full_width.elementor-hidden-desktop.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > section > div > div > div.elementor-column.elementor-col-33.elementor-inner-column.elementor-element.elementor-element-26760b9\n{\n    display:none !important\n}\n\n#main > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-63e64f4.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-7e55c3b.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-f2b1fed > div > div > div > div > h2{\n    \n    line-height: 1.2;\n}\n\n\n\n#main > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-63e64f4.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-7e55c3b.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-f2b1fed > div > div > div > div > h2\n{\n    font-size: 34px !important;\n}\n\n#main > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-63e64f4.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div > div > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-7e55c3b.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.jet-parallax-section > div > div > div.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-f2b1fed > div > div > div > div\n\n{\n    \n    margin: 3px 0px -37px 0px;\n}\n\n#ImagagemDestacada > div > div > img\n{\nheight: 244px;    \n}\n\np\n{\n    font-size: 205% !important;\n    text-align:left !important;\n    line-height: 1.3em !important;\n}\n\n.elementor img {\n    height: auto;\n    max-width: 100%;\n    border: none;\n    border-radius: 0;\n    box-shadow: none;\n}\n\n.elementor-3914 .elementor-element.elementor-element-19d7f321 .elementor-heading-title {\n    font-size: 40px;\n}",
+          "domains": [
+            "cnbb.org.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 18,
+      "name": "www.acidigital.com",
+      "enabled": true,
+      "update_date": 1773921695831,
+      "sections": [
+        {
+          "code": "#header > div.header-mobile.responsive-header > div.menubar.justify-content-between.d-flex.align-items-center > ul,\n#shr_canvas1 > div > div > div > div > ul,\n#header > div.header-tablet.responsive-header,\nbody > header > div > div > div.col-12.redbar > div.left > ul,\n#header > div.header-desktop > div.menubar.sticky-menu.justify-content-between.d-flex.fixed > div.menu-content.justify-content-between.d-flex.align-items-center > ul,\n#main-menu > li:nth-child(5)\n{\n    display: none !important\n}\n\n\n#header > div.header-mobile.responsive-header > div.menubar.justify-content-between.d-flex.align-items-center {\n    padding: 5px !important;\n}\n\n\n#header > div.header-mobile.responsive-header > div.menubar.justify-content-between.d-flex.align-items-center > a > img {\n    height: 36px;\n}\n\np {\n    line-height: 1.2;\n    font-size: 200%;\n}\n\n#app > div > div:nth-child(2) > div > div > h1\n{\n    font-size: 2.85em;\n}\n\n.column .content, .post .content {\n    flex: 0 0 620px;\n    margin-left: calc(50% - 236px);\n    max-width: 615px!important;\n    padding-right: 177px!important;\n}",
+          "domains": [
+            "acidigital.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 19,
+      "name": "brasildefatorj.com.br",
+      "enabled": true,
+      "update_date": 1732040933284,
+      "sections": [
+        {
+          "code": "#hamburguer,\n#search-icon{\ndisplay:none\n}\n\n\n#post > header > h1\n{\nfont: bold 3rem / 1.3 \"Merriweather\", \"Times New Roman\";\n}\n\np\n{\n    font: 1.9rem / 1.4 \"Merriweather\", \"Times New Roman\";\n}\n\n#stylus-19\n{\nfont-size: 15px;\n}",
+          "domains": [
+            "brasildefatorj.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 20,
+      "name": "infomoney.com.br",
+      "enabled": true,
+      "update_date": 1771415446476,
+      "sections": [
+        {
+          "code": "#siteHeader > div.font-im-sans.antialiased.bg-wl-neutral-950.w-full > div.flex.justify-between.items-center.bg-wl-neutral-950.text-wl-white.\\!px-6.lg\\:\\!px-16.\\!py-4 > div:nth-child(3) > div.lg\\:hidden > a,\n#siteHeader > div.top-menu-header.bg-wl-neutral-950 > nav > ul,\n#siteHeader > div.after-header > div > div,\nbody > main > article > div.max-w-2xl.rounded.bg-wl-neutral-50.text-xs.leading-4.pb-8.text-center.text-wl-neutral-500.mx-auto.mb-6.px-6.xl\\:px-0 > p,\nbody > main > article > div.cta-middle\n{\n    display:none !important\n}\n\n\nbody > main > div.max-w-5xl.my-4.mx-auto.space-y-4.px-6.xl\\:px-0 > h1{\n    font-size: 3.375rem;\n    line-height: 3.55rem;\n}\n\np{\n    font-size: 2.5rem !important;\n    line-height: 1.239 !important;\n}",
+          "domains": [
+            "infomoney.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 21,
+      "name": "progresso.com.br",
+      "enabled": true,
+      "update_date": 1732021871159,
+      "sections": [
+        {
+          "code": "article h1 \n{\n    font-size: 45px;\n    line-height: 44px;\n}\n\n\nbody > article{\npadding: 10px 20px;\n}\n\narticle p {\n    font-size: 37px;\n    line-height: 41px;\n    \n}",
+          "domains": [
+            "progresso.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 22,
+      "name": "noticias.uol.com.br",
+      "enabled": true,
+      "update_date": 1732209932539,
+      "sections": [
+        {
+          "code": "body > div.vl-wrapper > div.header-top-wrapper > div > header > div.jSHdaL9w > div > nav > ul,\nbody > div.vl-wrapper > div.header-top-wrapper > div > header > div.jSHdaL9w > div > div.QxFmtM4r > button > span > span > span > svg,\nbody > div.vl-wrapper > div.header-top-wrapper > div > header > div.jSHdaL9w > div > div.CjJv32Px > div > div,\nbody > div.vl-wrapper > div.header-top-wrapper > div > header > div.jSHdaL9w > div > div.QxFmtM4r > button > span > span > span\n\n{\n    display:none\n}\n\nbody > div.vl-wrapper > div.header-top-wrapper > div > header > div.jSHdaL9w > div{\nmargin: -14px 16px;\nheight: 70px;\n}\n\nbody > div.vl-wrapper > div.header-top-wrapper > div > header > div.jSHdaL9w > div > div.QxFmtM4r > a > span > svg{\n\n    width: 98px;\n    height: 40px;\n\n}\n\nbody > div.vl-wrapper > main > article > div:nth-child(1) > div.mt-100.container.grid > div.central-column.col-lg-6.g-start-lg-4 > div > p.bullet.mt-0{\n    font-size: 36px;\n    line-height: 42px;\n}\n\nbody > div.vl-wrapper > main > article > div:nth-child(1) > div.jupiter-headline.mt-150-lg.mt-100-xs.body-container.grid > div > div.solar-headline.size-default.type-heading.variant-default > div > div.content > div > h1{\n    font-size: 48px;\n    line-height: 46px;\n\n}",
+          "domains": [
+            "noticias.uol.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 23,
+      "name": "oglobo.globo.com/saude/noticia/2026/05/25/por-que-esse-surto-de-ebola-e-diferente-dos-anteriores-e-preocupa-as-autor...",
+      "enabled": true,
+      "update_date": 1779757989490,
+      "sections": [
+        {
+          "code": "body > header > div > div.header__central__itens,\n#header__trigger,\nbody > header > div > div.header__actions,\nbody > header > div > div.header__menu > div.menu__hamburguer,\n#aw0 > amp-img > img,\n#aw0 > amp-img,\n#google_center_div,\n#menu-menu-interno-internacional,\nbody > header > div.container > div.header__menu > div.menu__encapsulators > ul.menu__editorials > li.ao-vivo-4.menu-item.ao-vivo,\nbody > div.site__content > div.ad__area.ad__area--header,\nbody > header > div.internal__menu.menu__editorials,\n#mid2,\n#img_anch_CP3UuJ_72YwDFWRU3QId4w4FAg > img,\nbody > div.site__content > div.container > div > main > article > div.single-content > div.membrana_reward_blur,\nbody > div.site__content > div.container > div > aside,\n#video_41689-container,\n#header_ads,\nbody > div.sub-menu.sticky.top-14.z-40.w-full.border-b.border-b-neutral-200.bg-white.text-neutral-400.transition-all.duration-300.lg\\:top-16 > div > ul,\nbody > header > div > div > div.relative.my-auto.flex.items-center.justify-end.gap-4.pe-6.lg\\:order-3,\nbody > section.sticky.top-\\[120px\\].z-20.mb-2.min-h-28.w-full.lg\\:relative.lg\\:top-0,\nbody > div.sub-menu.sticky.top-14.z-30.w-full.border-b.border-b-neutral-200.bg-white.text-neutral-400.transition-all.duration-300.lg\\:top-16 > div,\nbody > header > div > div > div.flex.items-center.justify-start.gap-4.ps-6.lg\\:gap-8 > div > button > svg,\nbody > div.mx-auto.w-full.max-w-\\[1352px\\].px-4.mb-8.mt-2.flex.flex-col.gap-8.lg\\:mb-20.lg\\:mt-8.lg\\:flex-row.lg\\:gap-12 > aside,\nbody > section.sticky.z-\\[25\\].mb-2.min-h-28.w-full.lg\\:relative.lg\\:top-0.top-\\[120px\\],\nbody > section.sticky.\\!top-0.z-\\[25\\].mb-2.min-h-28.w-full.lg\\:relative.lg\\:top-0,\n#bottom-stick,\n#header-search-form,\n#cnn-id-sdk-root > div > button > div > svg > path:nth-child(2),\n#cnn-id-sdk-root > div > button > div > svg,\n#header > div,\n#template-container > div > div:nth-child(2) > div > button > img,\n#aw0 > img,\n#\\37 313514160138558485785 > div:nth-child(11),\n#mc-article-body > article > div.no-paywall > div.mc-column.mc-side-item__container > div,\n#oglobo > div.mrf-article-body > section\n{\n    display:none !important\n}\n\nbody > header > div > div.header__menu > a > img\n{\nheight: 34px;    \n}\n\n.content-head__title {\n    font-size: 6rem;\n    line-height: 6.3rem;\n    letter-spacing: 0rem;\n}\n\n\nbody > header > div > div.header__menu > a\n{\nheight: 38px;\n}\n\n.content-text {\n    font-size: 49px;\n    line-height: 57px;\n}",
+          "domains": [],
+          "url_prefixes": [
+            "https://oglobo.globo.com/saude/noticia/2026/05/25/por-que-esse-surto-de-ebola-e-diferente-dos-anteriores-e-preocupa-as-autoridades-de-saude.ghtml"
+          ],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 24,
+      "name": "www.diariodepernambuco.com.br",
+      "enabled": true,
+      "update_date": 1732649295159,
+      "sections": [
+        {
+          "code": "ddddddddddddddddddddbody > header > div.menuPortal,\nbody > main > article > span\n{\n    display:none !important\n}\n\nbody > main > article > div > header > h1{\n    \n    font-size: 257% !important;\n}\n\n\np{\n    line-height: 49px !important;\n    font-size: 116%;\n}",
+          "domains": [
+            "diariodepernambuco.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": [
+        "Possível texto acidental antes do primeiro seletor CSS."
+      ]
+    },
+    {
+      "id": 25,
+      "name": "ultimosegundo.ig.com.br",
+      "enabled": true,
+      "update_date": 1757965207123,
+      "sections": [
+        {
+          "code": "body > div.iGh__topBody > div,\nbody > div.container > article > div.share-page.i_share_mobile,\nbody > header > div > button,\nbody > header > div > button > span,\nbody > div.container > article > div.news.article-body > aside:nth-child(2),\n#desktop > div.ig-container-header-minimal > div.headerMobile_container-navigation_menu-icon.menu-abrir.mobile > label,\n#share-page__aside > ul\n{\n    display:none !important\n}\n\nbody > header > div > div > a.page-header__logo > div\n{\n    width: 42px !important;   \n}\n\nbody > header > div > div > a.channelName-canal\n{ \n    font-size: 17px !important;\n}\n\nbody > div.container > article > header > h1\n{\n    font-size: 44px !important;\n}\n\np\n{\n    font-size: 32px !important;\n    line-height: 1.27em !important;\n}\n\n.ig-container_headerText #noticia-titulo-h1.noticia-titulo-h1-ig_V04 {\n    font-weight: 700;\n    color: #000;\n    text-align: center;\n    text-transform: inherit;\n    font-size: 52px;\n    line-height: 55px;\n    margin-top: 10px;\n    margin-bottom: 0;\n}",
+          "domains": [
+            "ultimosegundo.ig.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 26,
+      "name": "brasil61.com",
+      "enabled": true,
+      "update_date": 1734447361092,
+      "sections": [
+        {
+          "code": "body > script,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover > div.rc-anchor-normal-footer,\n#lazy-container > div.main-navbar > div > div.main-navbar__geonews,\n#lazy-container > div.main-navbar > div > div.main-navbar__user-area,\ngrecaptcha-logo,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover,\nbody > div:nth-child(24) > div,\n#lazy-container > section.notice-body > section.notice-content > div > div.share-buttons11.share-buttons11--gray > div,\n#lazy-container > section.notice-body > section.notice-content > div > div.notice-regular__audios > div,\n#lazy-container > section.notice-body > section.notice-content > div > div.notice-content__author,\n#lazy-container > section.notice-body > section.notice-content > div > div.notice-regular__date.entry-date.updated,\n#lazy-container > section.notice-body > section.notice-content > div > a > img,\n#lazy-container > section.notice-regular > div.notice-regular__container > div.notice-regular__header > div.notice-regular__downloads.first,\n#lazy-container > section.notice-body > section.notice-body__container\n{\n    display:none !important\n}\n\n#lazy-container > section.notice-body\n{\n    justify-content: left !important;\n}",
+          "domains": [
+            "brasil61.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 33,
+      "name": "www.diariodocentrodomundo.com.br",
+      "enabled": true,
+      "update_date": 1733855613784,
+      "sections": [
+        {
+          "code": "body > div.dcm-header-mobile > div > div.d-flex.flex-row.justify-content-between.align-items-center.social,\nbody > div.dcm-header-mobile > div > a,\nbody > div.dcm-header-mobile > div > span,\n#social-single,\n#google_ads_iframe_\\/21715141650\\,54925924\\/diariodocentrodomundo\\.com\\.br_0__container__\n{\n    display:none !important\n}\n\n\n#post-1297446 > div.td-post-header.td-pb-padding-side > header > h1\n{\n    font-size: 44px !important;\n    line-height: 52px !important;\n}\n\n#post-1297446 > div.td-post-content.td-pb-padding-side > p\n{\nfont-size: 35px !important;\n    line-height: 45.3px !important;\n}",
+          "domains": [
+            "diariodocentrodomundo.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": [
+        "Contém seletores específicos de uma matéria e pode exigir generalização."
+      ]
+    },
+    {
+      "id": 34,
+      "name": "www.folhape.com.br",
+      "enabled": true,
+      "update_date": 1758624635890,
+      "sections": [
+        {
+          "code": "body > header > div > div.topoContent > div:nth-child(1),\nbody > header > div > div.head.grid_16 > div.grid_10.alpha,\nbody > header > div > div.head.grid_16 > div.grid_6.omega.grid_data.mobileNao > p,\n#previsao-do-tempo-slide03,\nbody > header > div > div.head.grid_16,\nbody > header > div > div.topoContent > div:nth-child(3),\nbody > header > div > div.apenasMobile,\n#previsao-do-tempo-mobile-slide05 > div,\n#previsao-do-tempo-mobile-slide06,\nbody > header > div > div.apenasMobile > div.grid_6.omega.climaMobile,\nbody > section > div.grid_16,\nbody > article > div.tamanhoFonte,\nbody > header > div > div.menuTopo.grid_16 > div.prevArrow,\nbody > header > div > div.menuTopo.grid_16 > div.scrollMenu,\nbody > header > div > div.menuTopo.grid_16 > div.nextArrow,\nbody > article > header > div:nth-child(5),\n#topoFixo > div:nth-child(1) > div > button,\n#topoFixo > div:nth-child(4) > div > div\n\n{\n    display:none !important\n}\n\n\n\n\n\nbody > article > span {\n    margin-top: -6px !important;\n}\n\n\nbody > article > h1 {\n    font-size: 58px !important;\n    line-height: 60px !important;\n}\n\nbody > header {\n    height: 22px !important;\n}\n\np,\nbody > article > p:nth-child(9) > strong\n{\n    font-size: 36px !important;\n    line-height: 42px !important;\n}",
+          "domains": [
+            "folhape.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 35,
+      "name": "exame.com",
+      "enabled": true,
+      "update_date": 1733929788489,
+      "sections": [
+        {
+          "code": "body > section.grid.grid-cols-12.my-0.mx-auto.py-0.px-4.xl\\:px-12.w-full.max-w-\\[1440px\\].relative.gap-6.mt-7 > aside > section,\nbody > section.grid.grid-cols-12.my-0.mx-auto.py-0.px-4.xl\\:px-12.w-full.max-w-\\[1440px\\].relative.gap-6.mt-7 > aside > div.flex.flex-col.w-full.py-8.px-6.border.border-solid.border-colors-divider.dark\\:border-colors-dark-divider.rounded-3.my-6,\nbody > section.grid.grid-cols-12.my-0.mx-auto.py-0.px-4.xl\\:px-12.w-full.max-w-\\[1440px\\].relative.gap-6.mt-7 > aside > div:nth-child(7) > div,\nbody > section.grid.grid-cols-12.my-0.mx-auto.py-0.px-4.xl\\:px-12.w-full.max-w-\\[1440px\\].relative.gap-6.mt-7 > aside > div.newsletter-container.w-full.bg-colors-background.dark\\:bg-colors-text.rounded-2.border.border-solid.border-colors-hover.dark\\:border-colors-dark-divider.flex.justify-between.overflow-hidden.items-start.h-auto.p-6.flex-col-reverse.my-6,\n#nav > div.absolute.flex.items-center.gap-2.md\\:gap-4.justify-self-start > button:nth-child(2),\n#nav > div.absolute.flex.items-center.gap-2.md\\:gap-4.justify-self-start > button:nth-child(1),\n#nav > div.absolute.flex.items-center.gap-4.justify-self-end > div,\n#nav > div.absolute.flex.items-center.gap-4.justify-self-end,\nbody > section.grid.grid-cols-12.my-0.mx-auto.py-0.px-4.xl\\:px-12.w-full.max-w-\\[1440px\\].relative.gap-6.mt-7 > div.hidden.\\32 xl\\:col-span-1.\\32 xl\\:flex.\\32 xl\\:justify-center.relative,\n#adopt-controller-button > svg > path:nth-child(7),\n#adopt-controller-button > svg,\n#subheader-sticky > div,\n#news-component > div:nth-child(3) > section > div.flex.justify-between.items-center.py-4.border.border-solid.border-colors-divider.dark\\:border-colors-dark-divider.border-x-0,\nbody > iframe\n\n{\n    display:none !important;\n}\n\n#header-tag\n{\n    height: 40px;\n}\n\np\n{\n    font-size: 28px;\n    line-height: 34px;\n}",
+          "domains": [
+            "exame.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 36,
+      "name": "www.metropoles.com",
+      "enabled": true,
+      "update_date": 1762428268425,
+      "sections": [
+        {
+          "code": "#__next > div.Box-sc-68smk-0.cxWoMA > header > nav > div > div.MenuWrapper__RightSide-sc-oovkh1-4.iYzkVu,\n#__next > div.Box-sc-68smk-0.cxWoMA > header > nav > div > div.MenuWrapper__LeftSide-sc-oovkh1-2.iCKrMn,\n#__next > div.Box-sc-68smk-0.cxWoMA > header > div.SubHeaderWrapper-sc-j7azih-0.hayQZt.mtech__subHeader,\n#__next > div.Box-sc-68smk-0.cxWoMA > main > div > div > div.Grid__Row-sc-owmjhw-1.cqmWHV > div.Grid__Col-sc-owmjhw-2.BGIlG > article > div.Grid__Col-sc-owmjhw-2.jxWCJw > header > div.NoticiaInternaWrapper__Large-sc-481g5p-7.djvlRv > button,\n#__next > div.Box-sc-68smk-0.cxWoMA > main > div > div > div.Grid__Row-sc-owmjhw-1.cqmWHV > div.Grid__Col-sc-owmjhw-2.BGIlG > article > div.Grid__Col-sc-owmjhw-2.jxWCJw > div.Grid__Col-sc-owmjhw-2.cgtvGh > div.NoticiaInternaWrapper__ImagemDestaque-sc-481g5p-5.bBlNwq > div.NoticiaInternaWrapper__ShareButton-sc-481g5p-6.hvHKPo > button,\n#__next > div.Box-sc-68smk-0.cxWoMA > main > div > div > div.Grid__Row-sc-owmjhw-1.cqmWHV > div.Grid__Col-sc-owmjhw-2.BGIlG > article > div.Grid__Col-sc-owmjhw-2.hGMcyO > aside > div,\n#__next > div.Box-sc-68smk-0.cxWoMA > main > div > div > div.Grid__Row-sc-owmjhw-1.cqmWHV > div.Grid__Col-sc-owmjhw-2.BGIlG > article > div.Grid__Col-sc-owmjhw-2.hGMcyO > aside,\n#m-modal-permitir-notificacao,\n#__next > div.Box-sc-68smk-0.cxWoMA > main > div > div > div.Grid__Row-sc-owmjhw-1.cqmWHV > div.Grid__Col-sc-owmjhw-2.BGIlG > article > div.Grid__Col-sc-owmjhw-2.jxWCJw > div.Grid__Col-sc-owmjhw-2.cgtvGh > div.ConteudoNoticiaWrapper-sc-19fsm27-0.hIDPRr.m-content > div > div.m-wrapper-banner-video\n{\n    display:none !important\n}\n\n\np\n{\nline-height: 1.4 !important;\n    font-size: 16px;\n}\n\n\n.gLFhJO {\n    z-index: 2;\n    position: relative;\n    transition: 0.3s;\n    background-color: rgb(255, 255, 255);\n    border-bottom: 2px solid rgb(195, 36, 23);\n    height: 45px;\n}\n\n.gjuHeo .m-tech-logo a img {\n    width: 57%;\n    height: 81%;\n    display: block;\n    object-fit: contain;\n}",
+          "domains": [
+            "metropoles.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 37,
+      "name": "veja.abril.com.br",
+      "enabled": true,
+      "update_date": 1765971071029,
+      "sections": [
+        {
+          "code": "body > header > div.sub-header.container > div > nav,\nbody > header > div.sub-header.container > div > div.menu-button.col-s-3.col-l-1,\nbody > header > div.sub-header.container > div > div.col-l-3.sidebar-social-wrapper.sidebar-social-left,\nbody > header > div.sub-header.container > div > div.search-area.col-s-3.col-l-4,\n#post-5651390 > div.post-header > div.content-icons.content-share > ul,\n#post-5651390 > div.tarja-aovivo > div,\n#post-5651390 > div.tarja-aovivo\n{\n    display:none !important\n}\n\nbody > header > div.sub-header.container > div > div.brand-logo.col-s-6.col-l-4\n{\n    width: 101.333333% !important;\n}\n\n#post-5651390 > div.post-header > h1\n{\n    font-size: 38px !important;\n    line-height: 40px !important;\n}\n\n#post-5651390 > div.post-header\n{\n    padding: 6px 0 !important;\n}\n\n\nbody > header\n{\n    border-bottom: 0px solid rgba(0, 0, 0, 0) !important;\n}\n\n\nbody > header > div.sub-header.container > div\n{\n    padding: 0px 0 !important;\n    padding-top: 5px !important;\n}\n\n\n#post-5651390 > div.post-header > div.category\n{\n    margin-bottom: 2px !important;\n}\n\np{\n    font: 30px/33px 'Source Serif Pro',serif;\n}\n\n\n\nelement.style {\n    text-align: left;\n}\n\n\n.post .content p, .post .content ul, .post .content-icons ul, .post .content ol {\n    margin-bottom: 24px;\n    font: 27.6px/30.7px 'Source Serif Pro',serif;\n    color: #2f2f2f;\n}",
+          "domains": [
+            "veja.abril.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": [
+        "Contém seletores específicos de uma matéria e pode exigir generalização."
+      ]
+    },
+    {
+      "id": 38,
+      "name": "operamundi.uol.com.br",
+      "enabled": true,
+      "update_date": 1772100748587,
+      "sections": [
+        {
+          "code": "body > div.post-wrapper > div.post-wrap > div.jeg_main > div > div > div > div.elementor.elementor-2658 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-c34d240.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-66.elementor-top-column.elementor-element.elementor-element-587d25d > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-3ce4563.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-da5c367.post_share,\nbody > div.post-wrapper > div.post-wrap > div.jeg_main > div > div > div > div.elementor.elementor-2658 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-78462d5.elementor-section-full_width.elementor-section-content-middle.elementor-section-stretched.post__ad-space.elementor-section-height-default.elementor-section-height-default > div > div > div,\nbody > div.post-wrapper > div.post-wrap > div.jeg_main > div > div > div > div.elementor.elementor-2658 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-c34d240.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-66.elementor-top-column.elementor-element.elementor-element-587d25d > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-8defa60.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-0c08e7a.elementor-widget.elementor-widget-shortcode\n{\n    display:none\n}\n\n\nbody > div.post-wrapper > div.post-wrap > div.jeg_main > div > div > div > div.elementor.elementor-2658 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-c34d240.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-66.elementor-top-column.elementor-element.elementor-element-587d25d > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-8defa60.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-0c08e7a.elementor-widget.elementor-widget-shortcode\n{\n    margin-block-end: 0px !important;\n    margin-bottom: 0px !important;\n}\n\np{\n    font-size: 31px;\n    line-height: 1.525em;\n}\n\n\nbody > div.post-wrapper > div.post-wrap > div.jeg_main > div > div > div > div.elementor.elementor-2658 > section.elementor-section.elementor-top-section.elementor-element.elementor-element-c34d240.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-66.elementor-top-column.elementor-element.elementor-element-587d25d > div > section.elementor-section.elementor-inner-section.elementor-element.elementor-element-8defa60.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-9900b02.elementor-widget.elementor-widget-heading > div > h1\n{\n    font-size: 40px;\n}\n\n.post-page__article {\n    width: 110%;\n    min-width: 100%;\n}",
+          "domains": [
+            "operamundi.uol.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 39,
+      "name": "amp.dw.com",
+      "enabled": true,
+      "update_date": 1735242827596,
+      "sections": [
+        {
+          "code": "#root > div.lgl2mqt.livgtmk > div:nth-child(5) > div.s1mr81c7.fixed-top.focus-menu-shown > div.stvp5ts.focus-menu > amp-carousel,\n#root > div.lgl2mqt.livgtmk > div:nth-child(5) > div.s1mr81c7.fixed-top.focus-menu-shown > div.quick-navigation-items.h5za3lv > a,\n#navigation > svg:nth-child(1),\n#postPromptUI {\n    display: none !important\n}\n\n#root > div.lgl2mqt.livgtmk > div:nth-child(5) > div.c8dev6m.container-fluid > section:nth-child(2) > div > article > div > header > h1 {\n    font-size: 5.5rem;\n}\n\n\n\np {\n    font-size: 3.1rem;\n}",
+          "domains": [
+            "amp.dw.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 40,
+      "name": "jornalgrandebahia.com.br",
+      "enabled": true,
+      "update_date": 1735358794392,
+      "sections": [
+        {
+          "code": "p{\n    text-align: left !important;\n}",
+          "domains": [
+            "jornalgrandebahia.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 41,
+      "name": "jovempan.com.br",
+      "enabled": true,
+      "update_date": 1782207819492,
+      "sections": [
+        {
+          "code": "#top > div > section > label,\nbody > div.z-40.jp-container.fixed.inset-x-0.-top-full.peer-checked\\/menu-toggle\\:top-0.transition-top.duration-300.ease-in-out > nav > div,\nbody > a,\nbody > header > div > div,\nbody > header > div > label\n\n{\n    display:none !important\n}\n\n.h-16 {\n    height: calc(var(--spacing) * 10);\n}\n.px-4 {\n    padding-inline: calc(var(--spacing) * 3);\n}\n\n.prose-lg {\n    font-size: 1.125rem;\n    line-height: 1.57778;\n}",
+          "domains": [
+            "jovempan.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 42,
+      "name": "www.purepeople.com.br",
+      "enabled": true,
+      "update_date": 1741223762517,
+      "sections": [
+        {
+          "code": "#roller-1,\n#link-bar-container,\n#header-main-search-icon,\n#header-main-menu-icon,\n\n#player-main,\n#main-content > div.breadcrumb,\n#GPAGeral\n\n{\n    display: none !important\n}\n\n\n#main-content > div.article-title-container.mg-container > div.title-page-container > div\n{\nfont: 900 2.15rem Montserrat,Arial,\"Sans-Serif\" !important;\n}\n\n#header-main > div > a > img {\n    .header-logo {\n        display: block !important;\n        max-height: 5.35rem !important;\n    }\n}\n\n\n#main-content > div.gd-2-cols > div.left-col > section.article-container > div.article-headline.mg-content\n {\n    font-family: Montserrat,Arial,\"Sans-Serif\";\n    font-size: 1.725rem;\n    font-weight: 600;\n    line-height: 1.4;\n}   \n    \n\n\n\n #article-content > div.block-text \n{\n    font-size: 1.925rem !important;\n    line-height: 1.3 !important;\n}",
+          "domains": [
+            "purepeople.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": [
+        "Possível CSS aninhado ou bloco estrutural inválido."
+      ]
+    },
+    {
+      "id": 43,
+      "name": "cartacapital.com.br/",
+      "enabled": true,
+      "update_date": 1761187820456,
+      "sections": [
+        {
+          "code": "body > header > div > span > span,\nbody > header > div > div.header__left > button,\nbody > header > div > div.header__right > a,\nbody > aside.info\n{\n    display: none\n}\n\n\n\n\n.s-content__text p {\n    font-size: 1.7rem;\n    line-height: 2.2rem;\n    color: #333;\n    margin-bottom: 2.8rem;\n}",
+          "domains": [],
+          "url_prefixes": [
+            "https://www.cartacapital.com.br/politica/bolsonaro-entrega-defesa-ao-stf-o-que-vem-a-seguir/"
+          ],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 44,
+      "name": "portasabertas.org.br",
+      "enabled": true,
+      "update_date": 1757527176946,
+      "sections": [
+        {
+          "code": "#__next > a > div > div,\n#__next > div.styled__Container-sc-t21as3-0.beRPYo,\n#__next > div.styled__Container-sc-2lg3-0.JojKr > div > div:nth-child(2) > div,\n#brxe-kpcqxq,\n#brxe-dcirva,\n#brxe-tqmrcu,\n#brxe-tejyin > span,\n#brxe-qtcjfp\n{\n    display:none\n}\n\n\n.iFPMZt {\n    font-size: 3.33rem;\n    line-height: 59.2px;\n    margin-top: 0px;\n}\n\n/*Título*/\n\nh1 {\n    font-size: 4.362rem;\n    line-height: 4.588rem;\n}\n\n#brxe-sdpexf .bricks-site-logo {\n    width: 107px;\n    height: 16px;\n}\n\n.global__text-large.brxe-text {\n    line-height: 42px;\n    font-size: 35px;\n}",
+          "domains": [
+            "portasabertas.org.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 45,
+      "name": "gazetabrasil.com.br/ultimas-noticias/2025/03/13/gangues-armadas-atacam-e-incendeiam-maior-grupo-de-midia-do-haiti/",
+      "enabled": true,
+      "update_date": 1741978032107,
+      "sections": [
+        {
+          "code": "#zox-soc-mob-wrap,\n#zox-article-wrap > div.zox-post-top-wrap.zoxrel.left.zox100 > div.zox-post-title-wrap.zox-tit2 > div > header > div > h3\n{\n    display:none\n}\n\n\nh1.zox-post-title \n{\n    font-size: 3.225rem;\n}\n\n#zox-bot-head-wrap, #zox-bot-head, #zox-bot-head-left, #zox-bot-head-mid, .zox-bot-head-logo, .zox-bot-head-logo-main \n{\n    height: 53px;\n}\n\n\n.amp-wp-ca1de63:not(#_#_#_#_#_) \n{\n    font-size: 25pt;\n}\n\n.zox-post-body p {\n    color: #000;\n    display: block;\n    font-size: 1.125rem;\n    line-height: 1.35;\n    margin: 0 auto 20px;\n    max-width: 660px;\n}",
+          "domains": [],
+          "url_prefixes": [
+            "https://gazetabrasil.com.br/ultimas-noticias/2025/03/13/gangues-armadas-atacam-e-incendeiam-maior-grupo-de-midia-do-haiti/?amp=1"
+          ],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 46,
+      "name": "noticiasaominuto.com",
+      "enabled": true,
+      "update_date": 1757509047864,
+      "sections": [
+        {
+          "code": "#__nuxt > div.bg-dark,\n#__nuxt > div:nth-child(3) > div.article.container.flex.gap-8.px-4.pt-8 > div.flex.w-1\\/3.flex-col.gap-8,\n#__nuxt > div.bg-light.duration-300 > header > div > div.flex.justify-between > div.flex.w-full.items-center.justify-between.gap-6.lg\\:w-fit > div,\n#__nuxt > div.bg-light.duration-300 > header > div > div.relative.mt-3.flex.gap-4,\n#__nuxt > div.bg-light.duration-300 > header > div > div.flex.justify-between > div.flex.h-10.gap-4,\n#__nuxt > div.bg-light.duration-300 > header,\n#__nuxt > div:nth-child(3) > div.article.container.flex.gap-8.px-4.pt-8 > div.text-darkgray.lg\\:w-2\\/3 > div:nth-child(1) > div.article-content.font-slab.text-paragraph.font-light > div,\nbody > header > div.container > div.flex.justify-between > div.h-10.items-center.gap-8.lg\\:flex.lg\\:py-4 > a,\nbody > header > div.container > div.flex.justify-between > div.h-10.items-center.gap-8.lg\\:flex.lg\\:py-4 > button > img,\nbody > div > div,\nbody > header > div.container > div.flex.justify-between > div.flex.w-full.items-center.justify-between.gap-6.lg\\:w-fit > div > a,\nbody > header > div.container > div.flex.justify-between > button,\nbody > header > div.container > div.flex.justify-between > div.h-10.items-center.gap-8.lg\\:flex.lg\\:py-4 > div > a,\nbody > header\n{\n    display:none\n}\n\n\n.text-3xl {\n    font-size: 3.075rem;\n    line-height: 3.55rem;\n}\n\n.text-paragraph {\n    font-size: 35px;\n    line-height: 50px;\n}\n\n\n.article-content p \n{\n    margin-bottom: 30px;\n    text-align: left;\n}\n\n.text-headline-sm {\n    font-size: 50px;\n    line-height: 62px;\n}\n\n.text-xl {\n    font-size: 2.45rem;\n    line-height: 3.15rem;\n}",
+          "domains": [
+            "noticiasaominuto.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 47,
+      "name": "cbn.globo.com",
+      "enabled": true,
+      "update_date": 1765281013990,
+      "sections": [
+        {
+          "code": ".globo-amp-article-title {\n    font-size: 3rem;\n    line-height: 2.85rem;\n    letter-spacing: -0.09375rem;\n}\n\n\n.globo-amp-article-body {\n    font-family: opensans,sans-serif;\n    letter-spacing: -0.75px;\n    font-size: 32px;\n    color: #333;\n    line-height: 1.3;\n    clear: both;\n}\n\n.globo-amp-article-body p {\n    line-height: 1.27;\n}\n\n#cbn > article > header > div.globo-amp-share > div > div.content__share-bar-container\n{\n    display:none\n}",
+          "domains": [
+            "cbn.globo.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 48,
+      "name": "www.band.uol.com.br",
+      "enabled": true,
+      "update_date": 1742831431939,
+      "sections": [
+        {
+          "code": "#band-header > div > div.n.g > span,\n#band-header > div > div.aa.g > div > section > ul > li > a > span\n{\n    display:none\n        \n}\n\n\n.aw.at {\n    font-size: 46px;\n    line-height: 54px;\n}\n\n.aR {\n    font-size: 35px;\n    font-weight: 500;\n    color: #000;\n    line-height: 43px;\n}",
+          "domains": [
+            "band.uol.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 49,
+      "name": "www.brasilparalelo.com.br",
+      "enabled": true,
+      "update_date": 1742846127018,
+      "sections": [
+        {
+          "code": "#menubar,\n#navbar > div.link-100ppw.w-dyn-list > div > div > div.top-navline > div > div.top-nav-links > a.search-block.mob.w-inline-block,\n#assine,\n#hamburguer-icon,\n#body-content > div.new-section.noticia > div:nth-child(1) > div.reading-time-badge\n{\n    display:none\n}\n\nh1 {\n    margin-top: 0px;\n    margin-bottom: 10px;\n    font-size: 38px;\n    font-weight: 700;\n    line-height: 44px;\n}\n\n.w-richtext p {\n    margin-bottom: 23px;\n    font-size: 42px;\n    line-height: 45px;\n}\n\nblockquote {\n    border-left: 5px solid #e2e2e2;\n    margin: 0 0 10px;\n    padding: 10px 20px;\n    font-size: 34px;\n    line-height: 42px;\n}",
+          "domains": [
+            "brasilparalelo.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 50,
+      "name": "areferencia.com",
+      "enabled": true,
+      "update_date": 1742950241824,
+      "sections": [
+        {
+          "code": "body > header > section.elementor-section.elementor-top-section.elementor-element.elementor-element-52b5d9b.elementor-hidden-desktop.elementor-hidden-tablet.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-abf2b0f > div > div > div > div,\nbody > header > section.elementor-section.elementor-top-section.elementor-element.elementor-element-52b5d9b.elementor-hidden-desktop.elementor-hidden-tablet.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-1102181 > div,\nbody > header > section.elementor-section.elementor-top-section.elementor-element.elementor-element-52b5d9b.elementor-hidden-desktop.elementor-hidden-tablet.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-abf2b0f > div\n{\n    display:none\n}\n\n\n.elementor-40718 .elementor-element.elementor-element-600d291 {\n    margin-top: 0px;\n    margin-bottom: 40px;\n}\n\n.elementor-40718 .elementor-element.elementor-element-d85c1a0 .elementor-heading-title {\n    font-size: 46px;\n    line-height: 1.1em;\n    letter-spacing: 0px;\n}\n\n\n.elementor-kit-40558 {\n    --e-global-typography-primary-font-size: 36px;\n    --e-global-typography-primary-line-height: 1.2em;\n    --e-global-typography-secondary-font-size: 24px;\n    --e-global-typography-secondary-line-height: 33px;\n    --e-global-typography-text-font-size: 38px;\n    --e-global-typography-text-line-height: 44px;\n    --e-global-typography-accent-font-size: 20px;\n    font-size: var( --e-global-typography-text-font-size );\n    line-height: var( --e-global-typography-text-line-height );\n}",
+          "domains": [
+            "areferencia.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": [
+        "Contém muitas variáveis CSS; algumas podem não alterar propriedades diretamente."
+      ]
+    },
+    {
+      "id": 51,
+      "name": "www.winnmediaskn.com",
+      "enabled": true,
+      "update_date": 1743180333044,
+      "sections": [
+        {
+          "code": "#advanced_floating_content_1800,\n#tdi_76,\n#tdi_81 > div > div.vc_column.tdi_84.wpb_column.vc_column_container.tdc-column.td-pb-span8 > div > div.td_block_wrap.tdb_single_categories.tdi_85.td-pb-border-top.td_block_template_1 > div > a,\n#embedPlayer > p,\n#tdi_91,\n#onesignal-bell-launcher > div.onesignal-bell-launcher-button > svg > circle,\n#onesignal-bell-launcher > div.onesignal-bell-launcher-button,\n#tdi_3 > div > div.vc_column.tdi_6.wpb_column.vc_column_container.tdc-column.td-pb-span4 > div > div > div,\n#tdi_3 > div > div.vc_column.tdi_12.wpb_column.vc_column_container.tdc-column.td-pb-span4 > div > div > div > span > span,\n#tdi_81 > div > div.vc_column.tdi_84.wpb_column.vc_column_container.tdc-column.td-pb-span8 > div > div.td_block_wrap.td-a-rec.td-a-rec-id-custom-spot.td-a-rec-img.tdi_92.td_block_template_1 > div > a > img,\n#onesignal-bell-launcher,\nbody > div.td-scroll-up.td-scroll-up-visible,\n#tdi_16 > div > div.vc_column.tdi_25.wpb_column.vc_column_container.tdc-column.td-pb-span4,\n#tdi_16 > div > div.vc_column.tdi_19.wpb_column.vc_column_container.tdc-column.td-pb-span4 > div\n\n{\n    display:none !important\n}\n\n.tagdiv-type {\n    font-size: 28px;\n    line-height: 1.34;\n    color: #222;\n}",
+          "domains": [
+            "winnmediaskn.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 52,
+      "name": "www.correiodopovo.com.br",
+      "enabled": true,
+      "update_date": 1760401986916,
+      "sections": [
+        {
+          "code": "body > div.container-max.adsconteiner,\nbody > div.container-max.topopagina > div,\nbody > div.container-max.topopagina,\n#menuHeader > div.container.menufixo.topo > div:nth-child(1) > ul > li:nth-child(1) > a\n{\n    display:none\n}\n\nbody.geral article .article-content .container {\n    max-width: 718px;\n    width: 131%;\n}\n\nbody.geral .article__body>p {\n    font: normal normal 504 1.5em/1.45em Montserrat;\n}\n\n.container {\n    padding-right: 15px;\n    padding-left: 15px;\n    margin-right: 7px;\n    margin-left: -73px;\n}",
+          "domains": [],
+          "url_prefixes": [
+            "https://www.correiodopovo.com.br"
+          ],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 53,
+      "name": "jornaldebrasilia.com.br",
+      "enabled": true,
+      "update_date": 1761018833531,
+      "sections": [
+        {
+          "code": "#topo > header > div.wrapper > div\n{\n    display:none\n}\n\n\nmain.inner-post .the-post-content p {\n    color: #000;\n    font-family: \"Open Sans\",sans-serif;\n    font-size: 2.2rem;\n    font-weight: 400;\n    line-height: 136.8%;\n    letter-spacing: -0.03rem;\n    margin-bottom: 1.875rem;\n}\n\nmain.inner-post .post-title {\n    font-size: 2.75rem;\n    letter-spacing: -0.1125rem;\n}\n\n\n#topo > main > div.container > div > div > div.wrap-title > div\n{\n    display:none\n}",
+          "domains": [
+            "jornaldebrasilia.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 54,
+      "name": "www.saudemais.tv",
+      "enabled": true,
+      "update_date": 1744119834878,
+      "sections": [
+        {
+          "code": "body > a,\nbody > div.appConteudo > div:nth-child(3),\nbody > div.appConteudo > div.noticiaWrapper > div.textos.noticia > div.redesSociaisShare\n{\n    display:none\n}\n\n.noticiaCorpo {\n    line-height: 1.3;\n}\n\n.noticia {\n    font-size: 32px;\n}\n\n.textos h1 {\n    font-size: 43px;\n}",
+          "domains": [
+            "saudemais.tv"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 55,
+      "name": "www.bbc.com",
+      "enabled": true,
+      "update_date": 1763671057994,
+      "sections": [
+        {
+          "code": "#main-wrapper > header > nav,\n#main-wrapper > div > div > div > div.bbc-1cvxiy9 > main > div.bbc-4quw3x.e1rfboeq7 > section,\n#main-wrapper > div > div > div > div.css-1cvxiy9 > main > div.css-4quw3x.e1rfboeq7 > section > div > div > div.css-15oiryy.e1rfboeq4\n{\n    display:none\n}\n\n.bbc-hhl7in {\n    font-size: 1.4rem !important;\n    line-height: 1.675rem !important;\n}\n\n.css-1qucyee {\n    font-size: 1.4rem;\n    line-height: 1.975rem;\n}",
+          "domains": [
+            "bbc.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 56,
+      "name": "record.r7.com",
+      "enabled": true,
+      "update_date": 1744895135345,
+      "sections": [
+        {
+          "code": "* {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font-size: 1.3em;\n    vertical-align: baseline;\n    box-sizing: border-box;\n}\n\nhtml, body {\n    height: 100%;\n    line-height: 1.3;\n}\n\n\n\n#fusion-app > div > header > div > div > div > button.header-flex.header-items-center.header-h-full.header-gap-\\[1px\\].header-text-neutral-high-400.header-absolute.header-left-xxxs.lg\\:header-static.header-text-xxxs,\n#fusion-app > div > header > div > div > div > div.wrapper-button.profile-hover > a\n{\n    display:none\n}",
+          "domains": [
+            "record.r7.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 57,
+      "name": "setemargens.com",
+      "enabled": true,
+      "update_date": 1744992722323,
+      "sections": [
+        {
+          "code": "#main-content > div > div > div.et_pb_section.et_pb_section_1_tb_body.et_pb_with_background.et_section_regular.et_pb_section--with-menu > div > div > div,\n#main-content > div > div > div.et_pb_section.et_pb_section_0_tb_body.et_pb_with_background.et_section_regular > div > div > div.et_pb_module.et_pb_text.et_pb_text_4_tb_body.et_pb_text_align_right.et_pb_bg_layout_light,\nbody > div.et_social_sidebar_networks.et_social_visible_sidebar.et_social_slideright.et_social_animated.et_social_rectangle.et_social_sidebar_flip.et_social_mobile_on,\n#main-content > div > div > div.et_pb_section.et_pb_section_0_tb_body.et_pb_with_background.et_section_regular > div > div > div.et_pb_module.et_pb_text.et_pb_text_5_tb_body.et_clickable.et_pb_text_align_right.et_pb_bg_layout_light,\n#main-content > div > div > div.et_pb_section.et_pb_section_0_tb_body.et_pb_with_background.et_section_regular > div > div > div.et_pb_module.et_pb_text.et_pb_text_6_tb_body.et_clickable.et_pb_text_align_right.et_pb_bg_layout_light > div > p,\n#main-content > div > div > div.et_pb_section.et_pb_section_0_tb_body.et_pb_with_background.et_section_regular > div > div > div.et_pb_module.et_pb_text.et_pb_text_7_tb_body.et_clickable.et_pb_text_align_right.et_pb_bg_layout_light > div > p,\nbody > div.et_social_mobile_button.et_social_active_button\n{\n    display:none\n}",
+          "domains": [
+            "setemargens.com"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 58,
+      "name": "www.estadao.com.br",
+      "enabled": true,
+      "update_date": 1746183962228,
+      "sections": [
+        {
+          "code": "h1 {\n    color: #000;\n    font-family: \"EstadoHeadlineBold\",Georgia,arial;\n    font-size: 49px;\n    line-height: 54px;\n}\n\n.ads-container {\n    background-color: transparent;\n    padding: 8px;\n    margin: -19px auto 30px;\n    width: auto;\n    max-width: 320px;\n}\n\nbody {\n    font-family: Arial, Helvetica, sans-serif;\n    font-size: 35px;\n    line-height: normal;\n    color: #000;\n    background-color: #fff;\n    padding: 0 16px;\n}\n\n.news-body p {\n    line-height: 1.25;\n}",
+          "domains": [
+            "estadao.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": []
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 60,
+      "name": "www.lance.com.br",
+      "enabled": true,
+      "update_date": 1750427085838,
+      "sections": [
+        {
+          "code": "body > header > div > div.lance-flex.lance-items-center.lance-gap-3,\nbody > header > div > div.lance-flex.lance-justify-between.lance-items-center.lance-gap-4.xl\\:lance-w-full.xl\\:lance-max-w-\\[180px\\] > img,\nbody > div.lance-w-full.lance-fixed.lance-left-0.lance-right-0-0.lance-bottom-0.md\\:lance-hidden.lance-z-\\[61\\].lance-h-14.lance-bg-\\[\\#F9FAFB\\] > div,\nbody > main > section > div,\nbody > main > section > article > div.w-full.max-w-\\[636px\\].desk-news\\:max-w-full.tab-md\\:max-w-full.col-auto > div.desk-xs\\:px-0.w-full.max-w-\\[900px\\].mx-auto.px-4 > div.w-full.desk-news\\:max-w-\\[714px\\].mx-auto.flex.flex-col.gap-6.md\\:gap-8 > div:nth-child(9),\nbody > main > section > article > aside,\nbody > div.lance-w-full.lance-fixed.lance-left-0.lance-right-0-0.lance-bottom-0.md\\:lance-hidden.lance-z-\\[61\\].lance-h-14.lance-bg-\\[\\#F9FAFB\\].lance-rounded-t-2xl,\nbody > header > nav,\nbody > header > div > div.lance-hidden.md\\:lance-flex.lance-max-w-\\[850px\\].lance-w-full.lance-justify-between.lance-items-center.lance-px-2.lance-h-full,\nbody > main > section > article > div.w-full.max-w-\\[636px\\].desk-news\\:max-w-full.tab-md\\:max-w-full.col-auto > div.w-full.rounded-t-lg.p-4.tab-m\\:p-0.bg-gradient-to-b.from-\\[\\#F5F5F5\\].tab-m\\:from-white.to-\\[\\#FFF\\].flex.flex-col.justify-normal.items-center > div.p-3.mt-6.false.w-full.h-max.hidden.min-h-\\[122px\\].bg-off-white-bg.tab-m\\:flex.justify-center.items-center,\nbody > main > section > article > div.w-full.max-w-\\[636px\\].desk-news\\:max-w-full.tab-md\\:max-w-full.col-auto > div.w-full.rounded-t-lg.p-4.tab-m\\:p-0.bg-gradient-to-b.from-\\[\\#F5F5F5\\].tab-m\\:from-white.to-\\[\\#FFF\\].flex.flex-col.justify-normal.items-center > div.overflow-x-hidden.w-full.hideScrollbar.tab-m\\:order-first > div,\nbody > main > section > article > div.w-full.max-w-\\[636px\\].desk-news\\:max-w-full.tab-md\\:max-w-full.col-auto > div.desk-xs\\:px-0.w-full.max-w-\\[900px\\].mx-auto.px-4 > div.w-full.desk-news\\:max-w-\\[714px\\].mx-auto.flex.flex-col.gap-6.md\\:gap-8 > div:nth-child(2),\nbody > main > section > article > div.w-full.max-w-\\[636px\\].desk-news\\:max-w-full.tab-md\\:max-w-full.col-auto > div.desk-xs\\:px-0.w-full.max-w-\\[900px\\].mx-auto.px-4 > div.w-full.desk-news\\:max-w-\\[714px\\].mx-auto.flex.flex-col.gap-6.md\\:gap-8 > div.h-max.py-1.min-h-\\[250px\\].min-w-\\[300px\\].bg-table-white.flex.items-center.justify-center\n{\n    display:none !important\n}\n\n.leading-8 {\n    line-height: 3.6rem;\n}\n\n.text-\\[32px\\] {\n    font-size: 50px;\n}\n\n.lance-h-5 {\n    height: 2.25rem;\n}\n\n\n.text-lg {\n    font-size: 2.025rem;\n    line-height: 2.775rem;\n}",
+          "domains": [
+            "lance.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 61,
+      "name": "odia.ig.com.br/mundo-e-ciencia/2025/06/amp/7068603-temporada-de-furacoes-aumenta-risco-de-fome-extrema-no-haiti-al...",
+      "enabled": true,
+      "update_date": 1749128663968,
+      "sections": [
+        {
+          "code": "#body > div > header > div.secundary.flex,\n#body > div > header > div.primary > div > div > div.interactive-user.flex.align-center,\n#toggle-full-menu > span,\n#body > div > header\n{\n    display:none\n}\n\nmain header>h1, span.section {\n    font-size: 32px;\n    line-height: 39px;\n    font-family: odia-bold;\n    letter-spacing: -.035em;\n    margin: 0 0 10px;\n    display: block;\n    max-width: 100%;\n}\n\n.navigation-with-logo .logo {\n    padding-left: 0px;\n}",
+          "domains": [],
+          "url_prefixes": [
+            "https://odia.ig.com.br/mundo-e-ciencia/2025/06/amp/7068603-temporada-de-furacoes-aumenta-risco-de-fome-extrema-no-haiti-alerta-onu.html"
+          ],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 62,
+      "name": "gaudiumpress.org",
+      "enabled": true,
+      "update_date": 1778118180496,
+      "sections": [
+        {
+          "code": "#mobile-ad,\n#text-post > div > div > div.col-12.col-sm-8 > div.post-category,\n#text-post > div > div > div.col-12.col-sm-8 > div.post-breadcrum,\n#post-318987 > div > p:nth-child(2) > strong > a,\n#post-318987 > div > p:nth-child(2) > strong > a\n{\n    display:none !important\n}\n\n.post-title a {\n    font-size: 48px;\n    line-height: 62px;\n}\n\nelement.style {\n    text-align: left;\n}\n\n.post p {\n    line-height: 1.2em;\n}\n\n.post p {\n    font-size: 39px;\n    line-height: 45px;\n}\n\n.article-content p {\n  text-align: left !important;\n}\n\n\nelement.style {\n    text-align: left;\n}",
+          "domains": [
+            "gaudiumpress.org"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": [
+        "Contém seletores específicos de uma matéria e pode exigir generalização."
+      ]
+    },
+    {
+      "id": 63,
+      "name": "noticias.r7.com",
+      "enabled": true,
+      "update_date": 1774958278673,
+      "sections": [
+        {
+          "code": "#fusion-app > div > div.layout-container > div > main > nav,\n#fusion-app > div > div.layout-container > div > aside,\n#fusion-app > div > header > div > div > div > div.wrapper-button.profile-hover > a,\n#fusion-app > div > header > div > div > div > div.wrapper-button.profile-hover > a,\n#fusion-app > div > header > div > div > div > button.header-flex.header-items-center.header-h-full.header-gap-\\[1px\\].header-text-neutral-high-400.header-absolute.header-left-xxxs.lg\\:header-static.header-text-xxxs\n{\n    display:none\n}\n\n.header-h-lg {\n    height: 2.6rem;\n}\n\n* {\n    margin: 0;\n    padding: 0;\n    border: 0;\n    font-size: 1.04em;\n    vertical-align: baseline;\n    box-sizing: border-box;\n}",
+          "domains": [
+            "noticias.r7.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 64,
+      "name": "www.msf.org.br",
+      "enabled": true,
+      "update_date": 1750818937014,
+      "sections": [
+        {
+          "code": "body > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover > div.rc-anchor-normal-footer,\nbody > iframe,\nbody > div:nth-child(77) > div > div.grecaptcha-logo > iframe,\nbody > div:nth-child(77) > div > div.grecaptcha-logo,\nbody > div:nth-child(77) > iframe,\nbody > div:nth-child(77) > div,\nbody > header > nav.navbar.navbar-expand-xl.bg-white.header__navbar-menu.elementor-section.elementor-section-boxed > div > div\n{\n    display:none !important\n}\n\n\n.elementor-28236 .elementor-element.elementor-element-14933270 {\n    font-size: 37px;\n}\n\n\nbody {\n    font-size: 20px;\n    line-height: 45px;\n    color: #1f1e1e;\n    min-height: 100vh;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    overflow-wrap: break-word;\n    word-wrap: break-word;\n}",
+          "domains": [
+            "msf.org.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 78,
+      "name": "oantagonista.com.br/mundo/trump-celebra-numeros-mais-baixos-da-historia-de-ilegais-na-fronteira/",
+      "enabled": true,
+      "update_date": 1751512576418,
+      "sections": [
+        {
+          "code": "#main > section > div:nth-child(2) > div.row > div.col-lg-3.post-interna__aside,\n#main > section > div:nth-child(2) > div.row > div.col-lg-9 > article > div.post-interna__content > div.post-interna__content__compartilhamento > ul,\n#button-home,\n#button-home > img,\n#app > header > div.custom-header-container.custom-header-container--main > div > div,\n#app > header > div.custom-header-wrapper > div,\n#app > header > div.custom-header-wrapper,\n#main > section > div:nth-child(2) > div.post-interna__date,\n#post-progresso > div.container.post-progresso__content\n{\n    display:none\n}\n\n.post-interna {\n    overflow-x: hidden;\n    padding-top: 9px;\n}\n\n.post-interna__content p {\n    font-size: 16px;\n    line-height: 24px;\n}\nelement.style {\n    height: 55px;\n}",
+          "domains": [],
+          "url_prefixes": [
+            "https://oantagonista.com.br/mundo/trump-celebra-numeros-mais-baixos-da-historia-de-ilegais-na-fronteira/"
+          ],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 79,
+      "name": "www.portaltela.com",
+      "enabled": true,
+      "update_date": 1772709016311,
+      "sections": [
+        {
+          "code": ".text-title-xl {\n    font-size: 47px !important;\n    line-height: 1.5 !important;\n    letter-spacing: -.025em !important;\n}\n\nbody > header > div > div.flex.flex-row.absolute.right-3.xl\\:right-0.gap-10,\nbody > header > div > div.absolute.left-3.xl\\:left-0.flex.gap-20.items-center.h-full > button,\nbody > nav.GlassContainer.mx-auto.col-11.fixed-bottom.bottom-navigation-container.d-block.d-md-none > div.GlassContent.d-flex.align-items-center.justify-content-center.gap-4,\nbody > div.telinha-container.position-fixed,\nbody > nav.top-menu-wrapper.sticky-top > div > div > div.col.d-flex.flex-row.align-items-center.justify-content-end.gap-2.align-self-center,\nbody > main > div > div > div.mt-4.container-fluid > div > figure > div > div,\n.site-footer,\n.footer-wrapper \n\n{\n    display:none !important\n}\n\n.text-\\[18px\\] {\n    font-size: 37px !important;\n}\n\n.leading-6 {\n    line-height: 3.0rem !important;\n}\n\n.title-single-news-post {\n    font-size: 46px!important;\n}",
+          "domains": [
+            "portaltela.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 80,
+      "name": "www.msn.com",
+      "enabled": true,
+      "update_date": 1774970048188,
+      "sections": [
+        {
+          "code": "#ViewsPageId-AA1ZEJub > div.consumption-page-structure.article_content > div > div.viewsHeaderWrapper > div.consumption-page-banner-wrapper,\n#df-design-system > div,\n#df-design-system > div,\n#df-design-system > div > ul,\ndiv > button.icon-button.reaction-emoji-button.button-bg.button-bg-last-of-type.with-count.upvote.accessibility-outline.binary-reactions-button,\n#geom_inter_1774953706276_33_1,\nfluent-design-system-provider > div > div > div.search-container,\n#df-design-system > div, \n#df-design-system > div * ,\nhtml body #df-design-system > div,\n#df-design-system [class^=\"ds-container\"],\ndiv.viewsInfo.gradientBackground.polished > div.content > div.inlineView > div,\n#df-design-system > div,\ndiv.viewsInfo.gradientBackground.polished > div.content > div.inlineView > div,\nbody #df-design-system > div\n{\n    display:none !important\n}\n\n#df-design-system {\n    column-count: 1 !important;\n    column-width: auto !important;\n    column-gap: 0 !important;\n}",
+          "domains": [],
+          "url_prefixes": [
+            "https://www.msn.com/pt-br/noticias"
+          ],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 81,
+      "name": "folha.uol.com.br",
+      "enabled": true,
+      "update_date": 1752237921608,
+      "sections": [
+        {
+          "code": "#c-news > div:nth-child(7) > div > div > div.flex-cell > div > div > header > div > div,\nbody > div:nth-child(34) > header > div.l-header__wrapper.u-no-print > div.container,\nbody > div:nth-child(34) > div:nth-child(5) > div.block.block--pub-super,\nbody > div:nth-child(34) > header > div:nth-child(1) > div > div > div.l-header__action-group.l-header__action-group--left.u-no-print > button,\n#c-news > div:nth-child(8) > div > div > div > div > div.col.col--md-1-1.col--lg-12-18 > div.c-news__content > div.c-signature.c-signature--left\n{\n    display:none\n}\n\n.c-content-head__title {\n    color: #333;\n    font-family: 'FolhaII',Georgia,serif;\n    font-size: 2.466em;\n    font-weight: 600;\n    line-height: 1.2;\n    margin-bottom: 0.333em;\n}\n\n.block {\n    padding-top: 0.3rem;\n}\n\n\n.c-news__content {\n    font-family: 'FolhaTexto',Georgia,serif;\n    font-size: 1.7em;\n    line-height: 1.3;\n    margin-bottom: 1.944rem;\n    padding-top: 0.277em;\n}",
+          "domains": [
+            "folha.uol.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 82,
+      "name": "ansabrasil.com.br",
+      "enabled": true,
+      "update_date": 1752630413044,
+      "sections": [
+        {
+          "code": "#article-page-scroller > div > div.section.article-detail > div.container > div.article-intro > div.section-heading.is-detail > div,\n#mobile-bar\n{\n    display:none\n}\n\n\n.post-single-title {\n    color: var(--ink);\n    font-size: 46px;\n    font-weight: 600;\n    letter-spacing: -.02em;\n    line-height: 1.2;\n    text-wrap: balance;\n}\n\n\n.rich-text {\n    color: var(--ink-80);\n    font-size: 29px;\n    letter-spacing: -.02em;\n    line-height: 1.3;\n}",
+          "domains": [
+            "ansabrasil.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 83,
+      "name": "travelandtourworld.com.br",
+      "enabled": true,
+      "update_date": 1752631024700,
+      "sections": [
+        {
+          "code": "body > div.searchbox-wrapper,\nbody > div.tap,\nbody > header > div > section > div.header-item-right,\nbody > header > div > section\n{\n    display:none\n}\n\n.left-main-bodybox h1 {\n    font-weight: 600;\n    text-align: left;\n    font-size: 2.4rem;\n    line-height: 2.7rem;\n}\n\n.left-main-bodybox p {\n    font-size: 2.1rem;\n}\n\nbody {\n    font-family: Lato,sans-serif;\n    font-weight: 400;\n    line-height: 1.2;\n    overflow-x: hidden;\n    background: #f7f8f9;\n}",
+          "domains": [
+            "travelandtourworld.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 84,
+      "name": "revistacenarium.com.br",
+      "enabled": true,
+      "update_date": 1752633655237,
+      "sections": [
+        {
+          "code": "body > div.bg-topo.mb-3 > div > div.d-lg-none > div > nav > div > div:nth-child(2) > a.bt-idioma.d-flex.align-items-center.dropdown-toggle,\nbody > div.bg-topo.mb-3 > div > div.d-lg-none > div > nav > div > div:nth-child(2),\nbody > div.bg-topo.mb-3 > div > div.d-lg-none > div > nav > div > button\n{\n    display:none !important\n\n}\n\n\n\nh1.mt-1 {\n    margin: 10px 0 10px 0!important;\n    font-size: 2.6rem!important;\n}\n\n.pg .corpo {\n    font-weight: 400;\n    color: #4c4c4c;\n    font-size: 29px;\n    line-height: 1.4;\n    letter-spacing: -.03125rem;\n}",
+          "domains": [
+            "revistacenarium.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 85,
+      "name": "www.rtp.pt",
+      "enabled": true,
+      "update_date": 1764852585505,
+      "sections": [
+        {
+          "code": "body > div.navbar-rtp,\n#noticias > div.container.main-content.margin-top > div.row > div.col-12.col-lg-12.px-0 > div > div > nav > button,\n#uninav-breaking,\n#noticias > div.container.main-content.margin-top > div.row > div.col-12.col-lg-12.px-0 > div > div > a,\n#navbarSecondaryNews > button > svg,\n#article-content-data > div.mx-md-5.mt-3.d-flex.d-md-block.justify-content-center,\n#rsbtn_popup\n{\n    display:none !important\n}\n\n\narticle .article-main-title h2 {\n    line-height: 1.1;\n    font-size: 2.9rem;\n}\n\narticle .article-text p, .article-text p, .article-text div, .article-text {\n    font-size: 2.225rem;\n    line-height: 1.26;\n    font-weight: 400;\n}\n\narticle .article-lead {\n    font-size: 42px;\n    font-weight: 500;\n    line-height: 50.60px;\n    margin-top: 20px;\n    margin-bottom: 20px;\n}",
+          "domains": [
+            "rtp.pt"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 86,
+      "name": "www.estadopolitico.com.br",
+      "enabled": true,
+      "update_date": 1752782915040,
+      "sections": [
+        {
+          "code": "body > div.joinchat.joinchat--left.joinchat--show.joinchat--tooltip,\nbody > div.jeg_viewport > div.jeg_navbar_mobile_wrapper > div.jeg_navbar_mobile.notransition.jeg_sticky_nav > div > div > div > div.jeg_nav_col.jeg_nav_right.jeg_nav_normal > div > div,\nbody > div.jeg_viewport > div.jeg_navbar_mobile_wrapper > div.jeg_navbar_mobile.notransition.jeg_sticky_nav > div > div > div > div.jeg_nav_col.jeg_nav_left.jeg_nav_normal > div > div,\nbody > div.jeg_viewport > div.post-wrapper > div.post-wrap > div.jeg_main.jeg_sidebar_none > div > div > div > div.row > div > div > div.jeg_share_top_container,\nbody > div.jeg_viewport > div.jeg_navbar_mobile_wrapper > div.jeg_navbar_mobile.jeg_sticky_nav > div > div > div > div.jeg_nav_col.jeg_nav_left.jeg_nav_normal > div > div,\nbody > div.jeg_viewport > div.jeg_navbar_mobile_wrapper > div.jeg_navbar_mobile.jeg_sticky_nav > div > div > div > div.jeg_nav_col.jeg_nav_right.jeg_nav_normal > div > div,\nbody > div.jeg_viewport > div.jscroll-to-top.show,\n#selectShareContainer > div\n{\ndisplay:none !important\n}\n\n\n.custom_post_template h1.jeg_post_title, .entry-header .jeg_post_title {\n    font-size: 51px!important;\n}\n\n.single .content-inner {\n    color: #333;\n    font-size: 32px;\n    line-height: 1.425em;\n    word-break: normal;\n    -ms-word-wrap: break-word;\n    word-wrap: break-word;\n}",
+          "domains": [
+            "estadopolitico.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 87,
+      "name": "correiodobrasil.com.br",
+      "enabled": true,
+      "update_date": 1754047374722,
+      "sections": [
+        {
+          "code": "#navbarNavDropdown,\n#visitor-body > div > div > header > header > div.find-form-container,\n#visitor-body > div > div > div.page > div > div > div.row.page-post > div.col.post-container > article > div.article-header > div.pm-share-button.social-share-button,\n#visitor-body > div > div > div.page > div > div > div.row.page-post > div.col.post-container > article > div.article-header > h2,\n#visitor-body > div > div > div.page > div > div > div.row.page-post > div.col.post-container > article > div.article-header > div.article-categories,\n#visitor-body > div > div > div.page > div > div > div.row.page-post > div.col.post-container > article > div.article-header > div.article-categories,\n#visitor-body > div > div > div.page > div > div > div.row.page-post > div.col.post-container > article > div.article-header > div.article-categories > ul,\n#visitor-body > div > div > div.page > div > div > div.row.page-post > div.col.post-container > article > div.article-header > div.post-publish\n{\n    display:none !important\n}\n\n\n.site-logo .logo-image {\n    padding: 13.7px 0;\n    text-align: center;\n}\n\n\n.post-page .article-header .article-title {\n    font-size: calc(2.425rem + .9vw)!important;\n}\n\n.site-logo, img {\n    max-width: 31%;\n}\n\n.pm-post .article-content, .pm-post .article-content p {\n    font-family: \"Open Sans\",sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 39.5px;\n    margin-bottom: 20px;\n    text-size-adjust: 100%;\n}\n\n.pm-post .article-content, .pm-post .article-content p {\n    font-size: 140% !important;\n}",
+          "domains": [
+            "correiodobrasil.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 89,
+      "name": "www.dnoticias.pt",
+      "enabled": true,
+      "update_date": 1755368636918,
+      "sections": [
+        {
+          "code": ".article--body p, .article--body ul, .article--body ol {\n    font: normal 32px/38px Georgia;\n    color: #333333;\n    margin-bottom: 20px;\n    max-width: 640px;\n    margin-left: auto;\n    margin-right: auto;\n}\n\n.article--header h1 {\n    font-size: 48px;\n    line-height: 44px;\n    font-weight: 700;\n    margin-bottom: 10px;\n    clear: both;\n}\n\n#header-dnoticiaspt > nav.header--nav_main > div\n{\n    display:none\n}",
+          "domains": [
+            "dnoticias.pt"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 90,
+      "name": "agencia.ecclesia.pt",
+      "enabled": true,
+      "update_date": 1759194617022,
+      "sections": [
+        {
+          "code": "body, button, input, select, textarea, .ast-button, .ast-custom-button {\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;\n    font-weight: 400;\n    font-size: 17px;\n    font-size: 1rem;\n    line-height: var(--ast-body-line-height,1.35em);\n}\n\n#ast-mobile-header > div.ast-main-header-wrap.main-header-bar-wrap > div > div > div > div.site-header-primary-section-right.site-header-section.ast-flex.ast-grid-right-section > div > div > button > span.mobile-menu-toggle-icon > span:nth-child(1) > svg,\n#ast-scroll-top\n{\n    display:none\n}\n\nheader .custom-logo-link img {\n    max-width: 133px;\n    width: 51px;\n}\n\n.ast-primary-header-bar {\n  min-height: 5px !important; /* or whatever height suits your layout */\n}\n\n.ast-primary-header-bar {\n  padding-top: 0px !important;\n  padding-bottom: 0px !important;\n}\n\n\n\n.ast-sticky-shrunk .ast-primary-header-bar {\n  min-height: 36px !important;\n}\n\nheader.entry-header .entry-title {\n    color: unset;\n    font-weight: 600;\n    font-size: 28.5px;\n    font-size: 1.582353rem;\n}",
+          "domains": [
+            "agencia.ecclesia.pt"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 91,
+      "name": "www.poder360.com.br",
+      "enabled": true,
+      "update_date": 1755650066523,
+      "sections": [
+        {
+          "code": "body > header > div > div.menu-bar > div > div.menu-bar__column-2 > div.menu-bar__poder-monitor > a,\nbody > header > div > div.header__visible-content,\n#page > div.box-banner-footer-desktop.d-none.d-sm-block,\n#page > div.box-banner-footer-desktop.d-none.d-sm-block > div > button,\n#page > div.box-banner-footer-desktop.d-none.d-sm-block > div > div,\n#page > div.box-banner-footer-desktop.d-none.d-sm-block > div > span,\nbody > header > div > div.menu-bar > div > div.menu-bar__column-2 > div.menu-bar__buttons > button,\n#page > div.box-banner-footer,\n#primary > div:nth-child(2) > div > div.col-sm-12.col-xl-8.mb-0.mb-sm-6.mb-lg-0 > article > div.inner-page-section__content-text > div.inner-page-section__text > form > fieldset > div.row.form-column.form-column-2,\n#primary > div:nth-child(2) > div > div.col-sm-12.col-xl-8.mb-0.mb-sm-6.mb-lg-0 > article > div.inner-page-section__content-text > div.inner-page-section__text > form\n{\n    display:none\n    \n}\n\n.inner-page-section__text p \n{\n  line-height: 125%;\n}",
+          "domains": [
+            "poder360.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 92,
+      "name": "gazetadopovo.com.br",
+      "enabled": true,
+      "update_date": 1764066814133,
+      "sections": [
+        {
+          "code": "body > main > div.menuSaber_navBarContainer__3Fgky,\nbody > main > div.adBanner_c-ads__vacy1.adBanner_ads-mobile__K0T3l.adBanner_ads-header__VxQBw.adBanner_open__ViOaF.sticky,\n#header-nav-left-icon-menu\n{\n    display:none !important\n}\n\n.postParagraph_post-paragraph-innerHtml__Q5vwc, .postParagraph_post-paragraph__juWZN {\n    font-size: 26px;\n    line-height: 33px;\n}\n\n.md-post-content .article-body p {\n    font-size: 1rem;\n    color: #000;\n    font-family: Merriweather,serif;\n    line-height: 153%;\n    margin-bottom: 30px;\n    outline: none;\n    text-align: left;\n}",
+          "domains": [
+            "gazetadopovo.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 93,
+      "name": "euronews.com",
+      "enabled": true,
+      "update_date": 1755723320458,
+      "sections": [
+        {
+          "code": "#swiper-next,\n#swiper-prev,\n#adb-header-live,\n#adb-header-login > a\n{\n    display:none\n}\n\n\n\n\n.c-article-redesign-title {\n    font-size: var(--font-24);\n    letter-spacing: -.02em;\n    line-height: 49px;\n}\n\n.c-article-content li, .c-article-content p {\n    letter-spacing: -.02em;\n    line-height: 45px;\n}\n\n\n:host, :root {\n    --global-base-unit: 0.5rem;\n    --global-width: 1280px;\n    --font-family-default: \"Arial size-adjust\",Arial,sans-serif;\n    --font-family-primary: \"Inter\",var(--font-family-default);\n    --font-family-secondary: \"Noto Naskh Arabic\",var(--font-family-default);\n    --font-9: 0.5625rem;\n    --font-10: 0.625rem;\n    --font-11: 0.6875rem;\n    --font-12: 0.75rem;\n    --font-13: 0.8125rem;\n    --font-14: 0.875rem;\n    --font-16: 2.3rem;\n    --font-18: 1.125rem;\n    --font-20: 1.25rem;\n    --font-22: 1.375rem;\n    --font-24: 2.8rem;\n    --font-26: 1.625rem;\n    --font-28: 1.75rem;\n    --font-32: 2rem;\n    --font-36: 2.25rem;\n    --font-40: 2.5rem;\n    --font-42: 2.625rem;\n    --font-48: 3rem;\n    --font-50: 3.125rem;\n    --font-60: 3.75rem;\n    --font-70: 4.375rem;\n    --font-90: 5.625rem;\n    --font-100: 6.25rem;\n    --font-weight-normal: 400;\n    --font-weight-medium: 500;\n    --font-weight-semibold: 600;\n    --font-weight-bold: 700;\n    --font-weight-extra-bold: 900;\n    --transition: all 190ms ease-in-out 0ms;\n    --transition-button: all .3s ease-in-out;\n    --transition-button-opacity: opacity .3s ease-in-out;\n    --transition-button-color: color .3s ease-in-out;\n    --transition-button-bgcolor: background-color .3s ease-in-out;\n    --z-index-consent-modal: 1000000;\n    --z-index-maxupside: 999999;\n    --z-index-accessibility-bar: 10020;\n    --z-index-poool-medium: 10010;\n    --z-index-header: 10000;\n    --z-index-upside: 9999;\n    --z-index-base-leaderboard-top: 1001;\n    --z-index-ad: 1000;\n    --z-index-live-blogging: 999;\n    --z-index-poool: 999;\n    --z-index-leaderboard-wallpaper-ad: 998;\n    --z-index-main: 98;\n    --z-index-connatix-mobile: 4;\n    --z-index-header-sidebar: 2;\n    --z-index-default: 1;\n    --z-index-header-breaking-news: -1;\n    --default-box-shadow: #000 0 7px 12px -5px;\n    --ad-label-height: 20px;\n    --c-logo-size-mobile: 48px;\n    --c-logo-size-desktop: 72px;\n    --o-site-main-space-mobile: 24px;\n    --o-site-main-space-desktop: 40px;\n    --h-grid-gap-mobile: 16px;\n    --h-grid-gap-desktop: 24px;\n    --global-width-aside-with-mpu: 300px;\n    --leaderboard-img-height: 250px;\n    --o-site-hr-top-desktop: -48px;\n    --o-site-hr__first-level-height: 48px;\n    --o-site-hr__second-level-height-mobile: 48px;\n    --o-site-hr__second-level-height-desktop: 64px;\n    --o-site-hr__full-height: 112px;\n    --o-site-hr__leaderboard-wallpaper-height: 270px;\n    --o-site-hr__leaderboard-wallpaper-height-incremented: 300px;\n}",
+          "domains": [
+            "euronews.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": [
+        "Contém muitas variáveis CSS; algumas podem não alterar propriedades diretamente."
+      ]
+    },
+    {
+      "id": 94,
+      "name": "www.africanews.com",
+      "enabled": true,
+      "update_date": 1755863456114,
+      "sections": [
+        {
+          "code": ".main-content .media__body__title {\n    font-size: 40px;\n    font-weight: 700;\n    margin: 1rem 0;\n}\n\n\n.main-content .article .article__content {\n    font-size: 35px;\n}",
+          "domains": [
+            "africanews.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 95,
+      "name": "www.aljazeera.com",
+      "enabled": true,
+      "update_date": 1755866758485,
+      "sections": [
+        {
+          "code": "body > div > div.amp-leaderboard-atf,\nbody > div > div.container.container--header.container--mobile-header.container--white,\nbody > div > div.app-download-banner > div.banner-button-wrapper,\nbody > div > div.app-download-banner > div.banner-content > div.banner-close-button-wrapper > button,\nbody > div > div.app-download-banner > div.banner-content > div.banner-description > div.banner-text,\nbody > div > div:nth-child(5) > div > div > div > main > header > div\n{\n    display:none\n}\n\n\n.article-header h1 {\n    font-size: 38px;\n    font-weight: 700;\n    line-height: var(--leading-headline);\n    margin: 0 0 10px;\n}\n\n.container--vertical-padding .container__inner {\n    padding-top: 5px;\n    padding-bottom: 20px;\n}\n\n\nhtml {\n    text-rendering: optimizeLegibility;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n    line-height: var(--leading-multilines);\n    --main-grey-color: #595959;\n    --secondary-color: #32a2ef;\n    --font-family: \"Roboto\",\"Helvetica Neue\",\"Helvetica\",\"Arial\",sans-serif;\n    --font-family-article-body: \"Georgia\",\"Times\",\"Times New Roman\",serif;\n    --header-logo-aspect-ratio: 2.75;\n    --leading-base: 1;\n    --leading-headline: 1.3;\n    --leading-multilines: 1.5;\n    --article-body-font-size-d: 1.25rem;\n    --article-body-font-size-m: 2.125rem;\n    --article-source-font-size: 1rem;\n    --article-body-font-weight: 400;\n    --original-color: #fa9000;\n    --primary-color: #fa9000;\n    --primary-light-color: #e1b77d;\n    --primary-dark-color: #fa9000;\n    --hyperlink-color: #fa9000;\n    --ticker-color: #d71c45;\n}",
+          "domains": [
+            "aljazeera.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": [
+        "Contém muitas variáveis CSS; algumas podem não alterar propriedades diretamente."
+      ]
+    },
+    {
+      "id": 96,
+      "name": "www.gp1.com.br",
+      "enabled": true,
+      "update_date": 1756298666010,
+      "sections": [
+        {
+          "code": ".news h1 {\n    font: 46px \"Gp1headlinebold\", serif;\n    line-height: 1.2;\n    margin: 0;\n}\n\n\nbody > article > div.news > div.social-share\n{\n    display:none\n}\n\n.news .article-text p {\n    font: 36px \"Georgia\", serif;\n    line-height: 40.5px;\n    margin-bottom: 20px;\n}",
+          "domains": [
+            "gp1.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 97,
+      "name": "veronoticias.com/mundo/papa-leao-xiv-e-aprovado-por-38-dos-brasileiros-diz-ipsos-ipec/",
+      "enabled": true,
+      "update_date": 1756383867293,
+      "sections": [
+        {
+          "code": "article .post-title {\n    font-size: 2.5rem;\n    letter-spacing: -0.03rem;\n}\n\n#topo > main > section:nth-child(1) > div > div > article > div.post-actions,\n#topo > header > div > div > div > div > div,\n#topo > footer > div > div,\n#topo > header > div > div > div\n{\n    display:none\n}",
+          "domains": [],
+          "url_prefixes": [
+            "https://veronoticias.com/mundo/papa-leao-xiv-e-aprovado-por-38-dos-brasileiros-diz-ipsos-ipec/"
+          ],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 98,
+      "name": "observador.pt",
+      "enabled": true,
+      "update_date": 1766543086848,
+      "sections": [
+        {
+          "code": "/* Apaguinho*/\n\n#main-header,\n#main-header > div.obs-ad-placeholder.fbg-container.obs-ad-placeholder-manchete,\n#dark-mode-switch,\n#article-7638515\\  > header > div.article-head-follow.topic-with-bg > div,\n#article-7858229\\  > header > div.article-head-follow.topic-with-bg > div\n{\n    display:none !important\n}\n\n\n\n/*Título*/\n\n.article-head-content-headline-title {\n    margin: 0px 0 12px;\n    font-size: 45px;\n    line-height: 1.2068965517;\n    font-weight: 700;\n}\n\n.fbg-container {\n    width: 439px;\n    margin-left: auto;\n    margin-right: auto;\n}\n\n\n/* Corpo da notícia */\n\n.article-body-content p {\n    margin: 0 0 25px 0;\n    font-family: \"Noto Serif\",Georgia,serif;\n    font-size: 31px;\n    line-height: 1.355556;\n    letter-spacing: 0;\n}",
+          "domains": [
+            "observador.pt"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 99,
+      "name": "www.dgabc.com.br",
+      "enabled": true,
+      "update_date": 1757506646027,
+      "sections": [
+        {
+          "code": "body > div.wrapper > div._TopFixa > div.cabecalho > div.logoDiarioTopo > p,\nbody > div.wrapper > div._TopFixa > div.cabecalho > div._cabecalhoBlocoAssineEntrar,\nbody > div.wrapper > div._TopFixa > div.cabecalho > div.LogoOlimpiada > a > img,\nbody > div.wrapper > div._TopFixa > div.cabecalho > div._cabecLadoEquerdo > div > span,\nbody > div.wrapper > div._TopFixa > div.menuHome,\n#tbl-next-up-inner,\n#tbl-next-up,\nbody > div.wrapper > div._TopFixa > div.cabecalho > div._cabecLadoEquerdo > div,\n#miolo > div > div.conteudo.container2 > div.linha1 > div._noticiaCorpo > div._noticiaLadoEsquerdo > div._noticiaPublicidade > div._arroba_300x600,\nbody > div.mdp-readabler-trigger-button-box.right-center.mdp-entrance-none.mdp-hover-none,\n#estrutura > div:nth-child(3),\n#miolo > div > div.conteudo.container2 > div.linha1 > div._noticiaCorpo > div._noticiaLadoDireito > div > div:nth-child(1) > div._noticiaAutor,\n#miolo > div > div.conteudo.container2 > div.linha1 > div._noticiaCorpo > div._noticiaLadoDireito > div > div:nth-child(1) > div._noticiaCompartilhamento\n\n\n{\n    display:none !important\n}\n\n.container2 {\n    width: 98%;\n}\n\n.cabecalho {\n    display: flex;\n    background-color: #0055A2;\n    height: 41px;\n    align-items: center;\n}\n\n\n._noticiaCorpo {\n    display: grid;\n    grid-template-columns: 101% 1% 1%;\n}\n\n._noticiaMateria {\n    font-family: 'Lato';\n    font-style: normal;\n    font-size: 26px;\n    line-height: 32px;\n    align-items: center;\n    color: #535353;\n    margin-top:25px;\n}",
+          "domains": [
+            "dgabc.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 100,
+      "name": "istoe.com.br",
+      "enabled": true,
+      "update_date": 1758025769208,
+      "sections": [
+        {
+          "code": ".single-noticia .single-infos .post-content-wrap p {\n    font-family: Roboto,sans-serif;\n    font-size: 1.2rem;\n    font-weight: 400;\n    height: -moz-fit-content;\n    height: fit-content;\n    line-height: 1.625rem;\n    padding-bottom: 1rem;\n    width: 100%;\n}",
+          "domains": [
+            "istoe.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 101,
+      "name": "www12.senado.leg.br",
+      "enabled": true,
+      "update_date": 1758134035261,
+      "sections": [
+        {
+          "code": "#visual-portal-wrapper > div:nth-child(3) > nav,\n#visual-portal-wrapper > div:nth-child(3),\n#visual-portal-wrapper > div:nth-child(2) > nav > div:nth-child(3) > a,\n#jstoggle\n{\n    display:none !important\n\n}\n\n\n\nh1 {\n    margin-top: 10px;\n    font-size: 54px;\n}\n\n.Songs-transcricao p {\n    text-align: left;\n    overflow: auto;\n    background: #f6f6f6;\n    margin: 0;\n    font-size: 32px;\n    color: #666;\n    padding: 10px 20px;\n    white-space: pre-line;\n    box-shadow: inset 0 7px 5px -5px #eee;\n}",
+          "domains": [
+            "www12.senado.leg.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 102,
+      "name": "www.itatiaia.com.br",
+      "enabled": true,
+      "update_date": 1758625051905,
+      "sections": [
+        {
+          "code": "#onesignal-bell-launcher > div.onesignal-bell-launcher-button > svg > circle,\n#onesignal-bell-container,\nbody > div.Page-header-hat,\nbody > bsp-header > div.Page-header.mundo > div.Page-header-hamburger-menu,\n#searchButton > svg.icon-magnify,\n#sticky_bottom\n{\n    display:none !important\n}\n\n.Page-header {\n  top: 0 !important;\n}\n\n\n.ArticlePage .Page-headline, .PodcastEpisodePage .Page-headline, .PageHeadingSimple-content .PageHeadingSimple-title {\n    font-size: 29px;\n    line-height: 1.2em;\n    letter-spacing: -.05em;\n}\n\n:root {\n    --headerHeight: 37px;\n}\n\n\n.RichTextBody>ol, .RichTextBody>p, .RichTextBody>ul, .RichTextBody p>ol, .RichTextBody p>ul {\n    font-family: var(--font-1);\n    font-size: var(--body-1);\n    font-weight: 300;\n    line-height: 1.3;\n    font-size: 25px;\n    font-weight: 400;\n}",
+          "domains": [
+            "itatiaia.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 103,
+      "name": "noticias.mmo.co.mz",
+      "enabled": true,
+      "update_date": 1758622855750,
+      "sections": [
+        {
+          "code": "#td-header-search-button-mob > i,\n#td-top-mobile-toggle > span > i,\nbody > div.td-more-articles-box.td-front-end-display-block\n\n{\n    display:none\n}\n\n\n\n.post header h1 {\n    font-size: 52px;\n    line-height: 57px;\n}\n\n\n.td-post-content p, .mce-content-body p, .wpb_text_column p, .comment-content p {\n    font-size: 32px;\n    line-height: 43px;\n    margin-bottom: 24px;\n}",
+          "domains": [
+            "noticias.mmo.co.mz"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 104,
+      "name": "www.em.com.br",
+      "enabled": true,
+      "update_date": 1758626333024,
+      "sections": [
+        {
+          "code": "#edm-general > header > div.edm-middle > button.edm-menu-button,\n#edm-general > header > div.edm-middle > button.edm-search-button.edm-open-modal,\n#edm-general > header\n{\n    display:none\n}\n\n.edm-page-news .edm-cms-content li, .edm-page-news .edm-cms-content p, .edm-page-special-post .edm-cms-content li, .edm-page-special-post .edm-cms-content p, .edm-page-sponsor-post .edm-cms-content li, .edm-page-sponsor-post .edm-cms-content p {\n    font-size: 20px;\n    line-height: 1.47;\n}",
+          "domains": [
+            "em.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 105,
+      "name": "haitiantimes.com",
+      "enabled": true,
+      "update_date": 1765977231510,
+      "sections": [
+        {
+          "code": ".page .entry-content, .single .entry-content, .archive .entry-content, .blog .entry-content, .search .entry-content {\n    font-size: 1.85rem;\n}\n\n\n\n:root {\n    --newspack-theme-color-primary: #003da5;\n    --newspack-theme-color-primary-variation: #2055b0;\n    --newspack-theme-color-secondary: #555;\n    --newspack-theme-color-secondary-variation: #3e3e3e;\n    --newspack-theme-color-highlight: #fed850;\n    --newspack-theme-color-primary-darken-5: #00296e;\n    --newspack-theme-color-primary-darken-10: #001f53;\n    --newspack-theme-color-primary-against-white: var(--newspack-theme-color-primary);\n    --newspack-theme-color-secondary-against-white: var(--newspack-theme-color-secondary);\n    --newspack-theme-color-against-primary: #fff;\n    --newspack-theme-color-against-secondary: #fff;\n    --newspack-theme-color-bg-body: #fff;\n    --newspack-theme-color-bg-input: var(--newspack-theme-color-bg-body);\n    --newspack-theme-color-bg-light: #f0f0f0;\n    --newspack-theme-color-bg-button-hover: #111;\n    --newspack-theme-color-bg-pre: #eee;\n    --newspack-theme-color-bg-pre-lighten-5: #fbfbfb;\n    --newspack-theme-color-bg-dark: #333;\n    --newspack-theme-color-bg-dark-lighten-5: #404040;\n    --newspack-theme-color-bg-dark-darken-5: #262626;\n    --newspack-theme-color-text-main: #111;\n    --newspack-theme-color-text-light: #515151;\n    --newspack-theme-color-text-hover: var(--newspack-theme-color-bg-dark-lighten-5);\n    --newspack-theme-color-text-screen: #21759b;\n    --newspack-theme-color-link: var(--newspack-theme-color-secondary);\n    --newspack-theme-color-link-hover: var(--newspack-theme-color-secondary-variation-against-white);\n    --newspack-theme-color-border: #ccc;\n    --newspack-theme-color-border-light: #e0e0e0;\n    --newspack-theme-color-alert-yellow: #dba617;\n    --newspack-theme-color-alert-red: #d63638;\n    --newspack-theme-color-alert-green: #008a20;\n    --newspack-theme-font-body: georgia,garamond,\"Times New Roman\",serif;\n    --newspack-theme-font-heading: -apple-system,blinkmacsystemfont,\"Segoe UI\",\"Roboto\",\"Oxygen\",\"Ubuntu\",\"Cantarell\",\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",sans-serif;\n    --newspack-theme-font-code: menlo,monaco,consolas,lucida console,monospace;\n    --newspack-theme-font-pre: \"Courier 10 Pitch\",courier,monospace;\n    --newspack-theme-font-size-base: 20px;\n    --newspack-theme-font-size-base-sm: 18px;\n    --newspack-theme-font-size-ratio: 1.125;\n    --newspack-theme-font-size-xxs: 0.6em;\n    --newspack-theme-font-size-xs: 0.7em;\n    --newspack-theme-font-size-sm: 0.8em;\n    --newspack-theme-font-size-md: 1.2em;\n    --newspack-theme-font-size-lg: 1.4e;\n    --newspack-theme-font-size-xl: 2.2em;\n    --newspack-theme-font-size-xxl: 2.2em;\n    --newspack-theme-font-size-xxxl: 2.8em;\n    --newspack-theme-font-size-xxxxl: 3.2em;\n    --newspack-theme-font-size-xxxxxl: 4em;\n    --newspack-theme-font-line-height-body: 1.6;\n    --newspack-theme-font-line-height-heading: 1.2;\n    --newspack-theme-font-heading: \"Fira Sans Condensed\",\"Helvetica\",sans-serif;\n}\n\n#masthead > div.middle-header-contain > div > button,\n#masthead > div.middle-header-contain > div > span > a > span.newspack-reader__account-link__icon > svg,\n#page > div.header-widget.above-header-widgets,\n#main > header > span > a\n{\n    display:none\n}",
+          "domains": [
+            "haitiantimes.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": [
+        "Contém muitas variáveis CSS; algumas podem não alterar propriedades diretamente."
+      ]
+    },
+    {
+      "id": 106,
+      "name": "www.jota.info",
+      "enabled": true,
+      "update_date": 1758757844542,
+      "sections": [
+        {
+          "code": "#mainHeader > div > a,\n#DLButton,\n#__next > div > div > div.sc-7c20a241-8.jNNXSw > div.sc-7c20a241-9.eeZybH > div > div.sc-90442a14-6.hKnRSV > div,\n#mainHeader > div > div.sc-6ba573de-53.lmPkln > div.sc-6ba573de-25.iNxMiP > div.sc-6ba573de-26.gIyyKN > div,\n#mainHeader > div > div.sc-6ba573de-53.lmPkln > div.sc-6ba573de-25.iNxMiP > div.sc-6ba573de-26.gIyyKN > svg,\n#mainHeader > div > div.sc-6ba573de-53.lmPkln > div.sc-6ba573de-25.iNxMiP > div.sc-6ba573de-27.fBkccl > div\n{\n    display:none\n}\n\n.eiOONs {\n    font-family: Roboto;\n    font-weight: 400;\n    font-size: 2.425rem;\n    line-height: 2.85rem;\n    color: rgb(60, 63, 76);\n}",
+          "domains": [
+            "jota.info"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 107,
+      "name": "cmjornal.pt",
+      "enabled": true,
+      "update_date": 1759197519468,
+      "sections": [
+        {
+          "code": ".bloco_entrada_container .text_container .destaque_titulo {\n    color: #000;\n    font-size: clamp(43.2px,3.6vw,52px);\n    text-wrap: pretty;\n    font-family: CorreioSans-ExtraBold,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;\n    text-decoration: none;\n    line-height: 1.4;\n}\n\n.corpo_noticia p {\n    font-size: 34px;\n}\n.corpo_noticia p {\n    \n    font-family: CorreioSlab-Light,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;\n    line-height: 1.3;\n    margin-top: 24px;\n}",
+          "domains": [
+            "cmjornal.pt"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 108,
+      "name": "ndmais.com.br",
+      "enabled": true,
+      "update_date": 1759199140346,
+      "sections": [
+        {
+          "code": "body > div.wrapper > div.ticker-main > div,\n#site-header > div > div > div > div > div.header-left-elements.position-relative,\n#nd-radio-head-widget > div\n{\n    display:none !important\n}\n\n\n.p-section, .ads-section {\n    width: 100%;\n    display: block;\n    padding: 0px 0;\n}\n\nelement.style {\n    margin-top: 25px;\n}\n\n.single-content p {\n    font-size: 30px;\n    margin-bottom: 30px;\n    line-height: 1.6;\n    margin-top: 0;\n    color: #444;\n    font-family: 'Merriweather' , 'Lucida Sans Unicode', 'serif';\n}",
+          "domains": [
+            "ndmais.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 109,
+      "name": "opovo.com.br",
+      "enabled": true,
+      "update_date": 1759979555671,
+      "sections": [
+        {
+          "code": "#container-main > div.container > div > div.col-lg-12.col-md-12.col-sm-12.breadcrumb-wrapper > nav > ol,\n#container-main > div.container > div > div:nth-child(3) > article > header > div.container-share.d-flex.mt-4,\n#audiome-container,\n#menu > nav > div > div.login__profile.menu-item__profile.d-flex.align-items-center.justify-content-center,\n#icon-menulateral,\n#container-main > div.inner-bar.inner-tools.position-fixed.visible\n{\n    display:none !important\n}\n\n/* título */\n.titulo {\n    font-size: 57px;\n    line-height: 66px;\n}\n\n/*texto*/\n\n.text-container p {\n    font-size: 36px;\n    font-weight: 400;\n    letter-spacing: 0;\n    line-height: 49px;\n}",
+          "domains": [
+            "opovo.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 110,
+      "name": "defesanet.com.br",
+      "enabled": true,
+      "update_date": 1760404262272,
+      "sections": [
+        {
+          "code": "body > div.elementor.elementor-150916.elementor-location-single.post-1077642.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-defesa.category-geopolitica.category-onu.category-ph.category-peacekeepers.tag-haiti.tag-minustah.tag-onu > section.elementor-section.elementor-top-section.elementor-element.elementor-element-71f9589.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div,\nbody > div.elementor.elementor-150916.elementor-location-single.post-1077642.post.type-post.status-publish.format-standard.has-post-thumbnail.hentry.category-defesa.category-geopolitica.category-onu.category-ph.category-peacekeepers.tag-haiti.tag-minustah.tag-onu > section.elementor-section.elementor-top-section.elementor-element.elementor-element-65dace9e.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > section > div > div.elementor-column.elementor-col-50.elementor-inner-column.elementor-element.elementor-element-5b042880,\n#form-field-field_79eb1cb > div > div,\nbody > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover,\nbody > header > section.elementor-section.elementor-top-section.elementor-element.elementor-element-1de4b1e5.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-3fad97d > div > div.elementor-element.elementor-element-446560b.elementor-widget__width-initial.elementor-search-form--skin-full_screen.elementor-widget-mobile__width-auto.elementor-hidden-desktop.elementor-widget.elementor-widget-search-form,\nbody > header > section.elementor-section.elementor-top-section.elementor-element.elementor-element-1de4b1e5.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-3fad97d > div > div.elementor-element.elementor-element-cbaf517.elementor-mobile-align-right.elementor-hidden-desktop.elementor-widget-mobile__width-auto.elementor-widget.elementor-widget-button > div,\n#form-field-field_79eb1cb > div > div > div.grecaptcha-logo > iframe\n{\n    display:none\n}\n\n.elementor-150916 .elementor-element.elementor-element-e9629d0 .elementor-heading-title {\n    font-size: 50px;\n}\n\n.elementor-150916 .elementor-element.elementor-element-e9629d0 .elementor-heading-title {\n    font-size: 39px;\n}\n\n\n.elementor-kit-150891 {\n    --e-global-typography-accent-font-size: 22px;\n    --e-global-typography-fc037f2-font-size: 18px;\n    --e-global-typography-56f1982-font-size: 16px;\n    --e-global-typography-56f1982-line-height: 26px;\n    --e-global-typography-1c1c589-font-size: 20px;\n    --e-global-typography-135dfc7-font-size: 20px;\n    --e-global-typography-ec805b6-font-size: 23px;\n    --e-global-typography-9051185-font-size: 28px;\n    --e-global-typography-1d62a9a-font-size: 22px;\n    --e-global-typography-a348868-line-height: 44px;\n    --e-global-typography-f959922-font-size: 30px;\n    --e-global-typography-a822638-font-size: 100px;\n    --e-global-typography-a5cc274-font-size: 25px;\n    --e-global-typography-16d21a6-font-size: 24px;\n    --e-global-typography-26221c6-font-size: 20px;\n    --e-global-typography-bcb360c-font-size: 38px;\n    --e-global-typography-8cbc784-font-size: 26px;\n    --e-global-typography-90cd057-font-size: 12px;\n    --e-global-typography-ebd76ca-font-size: 32px;\n    --e-global-typography-221312c-font-size: 20px;\n    --e-global-typography-d271655-font-size: 18px;\n    --e-global-typography-d271655-line-height: 28px;\n    --e-global-typography-61eac81-font-size: 24px;\n    --e-global-typography-a171ac3-font-size: 25px;\n    --e-global-typography-8f2ed6a-font-size: 28px;\n    --e-global-typography-391a607-font-size: 26px;\n    --e-global-typography-d38a9aa-font-size: 18px;\n    --e-global-typography-a44b7c8-font-size: 26px;\n    --e-global-typography-c158db3-font-size: 30px;\n    --e-global-typography-da50df3-font-size: 18px;\n    --e-global-typography-da50df3-line-height: 22px;\n}",
+          "domains": [
+            "defesanet.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": [
+        "Contém muitas variáveis CSS; algumas podem não alterar propriedades diretamente."
+      ]
+    },
+    {
+      "id": 111,
+      "name": "noticias.stf.jus.br",
+      "enabled": true,
+      "update_date": 1775708831281,
+      "sections": [
+        {
+          "code": "#body > div.enabled > div.active,\n#cabecalho > section > div > div > div:nth-child(1) > div,\n#cabecalho > section > div,\n#pesquisa,\n#noticias-pagina-interna > div > div > div.fs-4.mb-4\n{\n    display:none\n}\n\n/* Título */\n.pagina-interna #noticias-pagina-interna .noticia-titulo {\n    font-weight: 700;\n    font-size: 53px;\n}\n\n.noticia .noticia-titulo {\n    line-height: 103%;\n}\n\n/* Corpo */\n.pagina-interna #noticias-pagina-interna .noticia-conteudo p {\n    text-align: left;\n    font-size: 35px;\n    line-height: 53px;\n}",
+          "domains": [
+            "noticias.stf.jus.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 113,
+      "name": "pt.euronews.com",
+      "enabled": true,
+      "update_date": 1762865739092,
+      "sections": [
+        {
+          "code": "body > header > div.helper-site-row.o-site-hr__second-level > div > div.o-site-hr__second-level__links\n{\n    display:none\n}",
+          "domains": [
+            "pt.euronews.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 114,
+      "name": "ge.globo.com",
+      "enabled": true,
+      "update_date": 1782358778161,
+      "sections": [
+        {
+          "code": ".content-text__container {\n    font-size: 21px !important;   /* aumenta o tamanho da fonte */\n    line-height: 1.6 !important;  /* opcional: melhora a legibilidade */\n}\n\n\n\n#page-areas-list > div.sc-flIdDe.cEaGsX > div,\n#bottomsheet-body > div > div > div:nth-child(1) > div > div.sc-igRxsC.dccZLN > div > div.sc-hHJldL.cuKHRv,\n#bottomsheet-body > div > div > div:nth-child(1),\ndiv >#glbbarrawidget\n{\n    display:none !important\n}\n\n.content-text__container {\n    font-size: 28px !important;\n    line-height: 1.4 !important;\n}\n\n.glb-layout-classic .non-featured {\n    --glb-sp-content-head-mg-top: 05px;\n}",
+          "domains": [
+            "ge.globo.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 115,
+      "name": "istoedinheiro.com.br",
+      "enabled": true,
+      "update_date": 1763424909471,
+      "sections": [
+        {
+          "code": ".general .main .page-header h1 {\n    font-size: 45px;\n    margin: 0;\n    margin-bottom: 15px;\n}\n\n\n.content {\n    padding-top: 133px;\n    padding-top: 58px;\n    position: relative;\n}\n\nbody {\n    font-size: 20px;\n    font-size: 32px;\n    overflow-x: hidden;\n    background: #fff;\n    font-family: \"Inter\", \"arial\", sans-serif;\n    font-family: \"Arial\", sans-serif;\n}\n\n\n#header-main > nav:nth-child(4),\n#header-main > nav.sub-menu-revistas.main-istoe.second-row.so-mobile > div,\n#header-main > div > div > div > div > div.cabecalho-redes-sociais > a > span,\n#Rectangle-1-Copy-29,\n#Rectangle-1-Copy-41,\n#Rectangle-1-Copy-42,\n#iy9nwj > section > header > div.share_box.mob > div\n{display:none !important}",
+          "domains": [
+            "istoedinheiro.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 116,
+      "name": "www.jornaldocomercio.com",
+      "enabled": true,
+      "update_date": 1764240412060,
+      "sections": [
+        {
+          "code": "#root > div.font-charterregular > div.user-not-logged.flex.xl\\:hidden.items-center.gap-2.px-4.pt-6.dark\\:bg-dark,\n#root > div.font-charterregular > div:nth-child(16) > div.block.xl\\:hidden > div > div > div,\n#root > div.font-charterregular > div.whatsapp-lateral-container.flex.items-center.gap-2.fixed.top-1\\/2.xl\\:-right-\\[149px\\].cursor-pointer.p-4.rotate-\\[-90deg\\].-right-\\[72px\\],\n#barra-data > div,\n#root > div.font-charterregular > div:nth-child(16) > div.flex.flex-col.items-center.dark\\:bg-dark > div > div > div.flex.items-center.gap-0\\.5.whitespace-nowrap.w-full.text-ellipsis.overflow-hidden,\n#root > div.font-charterregular > div:nth-child(16) > div.flex.flex-col.items-center.dark\\:bg-dark > div > div > div.flex.flex-col.gap-8.mt-8.w-full.xl\\:max-w-\\[760px\\] > div:nth-child(1) > p,\n#menu-side-open > img,\n#barra-topo-botoes-mobile > div.user-not-logged.flex.flex-col.gap-2,\n#root > div.font-charterregular > div:nth-child(16) > div.flex.flex-col.items-center.dark\\:bg-dark > div > div > div.flex.flex-col.gap-8.mt-8.w-full.xl\\:max-w-\\[760px\\] > div.flex.flex-col.justify-between.xl\\:flex-row.xl\\:items-center.xl\\:border-b.xl\\:border-neutral-300.xl\\:pb-4,\n#root > div.font-charterregular > div:nth-child(16) > div.flex.flex-col.items-center.dark\\:bg-dark > div > div > div.flex.flex-col.gap-8.mt-8.w-full.xl\\:max-w-\\[760px\\] > div:nth-child(5)\n{\n    display:none\n}\n\n\n.py-6 {\n    padding-top: 0.5rem;\n    padding-bottom: 0rem;\n}\n\n.gap-8 {\n    gap: 0rem;\n}\n\n.pt-8 {\n    padding-top: 0rem;\n}\n\n\n.text-xl {\n    font-size: 3.25rem;\n    line-height: 3.35rem;\n}\n\n.text-base {\n    font-size: 2.2rem;\n    line-height: 2.9rem;\n}",
+          "domains": [
+            "jornaldocomercio.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 117,
+      "name": "sol.sapo.pt",
+      "enabled": true,
+      "update_date": 1765278240844,
+      "sections": [
+        {
+          "code": "/*Título*/\n\narticle .wp-block-post-title {\n     line-height: 3.5rem;\n}\n\nbody {\n        --wp--preset--font-size--article-h-1-m: 2.83rem;\n}\n\n/*CORPO*/\n\n#article > div.kb-row-layout-wrap.kb-row-layout-id678124_e21059-63.alignnone.wp-block-kadence-rowlayout > div > div.wp-block-kadence-column.kadence-column678124_70f676-09 > div.kt-inside-inner-col > div > div > div.wp-block-kadence-column.kadence-column678124_f93147-5e > div.kt-inside-inner-col > article > div\n{\n    article .wp-block-post-content p:not(article .relatedArticles p, article .quote p), article .wp-block-post-content ol, article .wp-block-post-content ul {\n    font-size: var(--wp--preset--font-size--normal);\n    line-height: 1.95rem;\n    letter-spacing: 0.3px;\n    color: var(--wp--preset--color--tertiary);\n}\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*APAGAR*/\n\nbody > div.wp-site-blocks > header > div.wp-block-group.header-primary.is-layout-flow.wp-block-group-is-layout-flow > div:nth-child(1) > div.kb-row-layout-wrap.kb-row-layout-id773353_985691-de.alignnone.kb-v-lg-hidden.wp-block-kadence-rowlayout > div > div > div.kt-inside-inner-col > div.kb-row-layout-wrap.kb-row-layout-id773353_a46913-86.alignnone.wp-block-kadence-rowlayout > div > div.wp-block-kadence-column.kadence-column773353_a3c793-f7.kb-section-dir-horizontal.kb-section-sm-dir-horizontal > div.kt-inside-inner-col,\nbody > div.wp-site-blocks > header > div.wp-block-group.header-secondary.px-5xs.is-layout-constrained.wp-block-group-is-layout-constrained > div.kb-row-layout-wrap.kb-row-layout-id773353_2b2c04-3b.alignnone.kb-v-lg-hidden.wp-block-kadence-rowlayout > div > div.wp-block-kadence-column.kadence-column773353_dc93a1-3f.kb-section-dir-horizontal.kb-section-sm-dir-horizontal > div.kt-inside-inner-col\n{\n    display:none\n}",
+          "domains": [
+            "sol.sapo.pt"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 118,
+      "name": "valor.globo.com",
+      "enabled": true,
+      "update_date": 1765878814213,
+      "sections": [
+        {
+          "code": "/* Título */\n.globo-amp-article-title {\n    font-size: 3rem;\n    line-height: 3.25rem;\n    letter-spacing: -0.0625rem;\n}\n\n/* Corpo */\n.globo-amp-article-body {\n    font-family: opensans,sans-serif;\n    letter-spacing: -.75px;\n    font-size: 35px;\n    color: #333;\n    line-height: 1.3;\n    clear: both;\n}\n\n\nbody > div.header-sub,\n#header > div:nth-child(2) > a > amp-img > img\n{\n    display:none\n}",
+          "domains": [
+            "valor.globo.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 119,
+      "name": "midiamax.com.br",
+      "enabled": true,
+      "update_date": 1765977233545,
+      "sections": [
+        {
+          "code": "/*Título */\n\n.post-internal__informations-title {\n    color: rgb(var(--color-neutral-800)/1);\n    font-size: clamp(2.7rem,3.1vw + 1rem,3rem);\n    font-weight: 600;\n    line-height: 120%;\n    margin-bottom: 8px;\n}\n\n\n/*Corpo*/\n.post-internal__content p {\n    color: rgb(var(--color-neutral-500)/1);\n    font-size: 2rem;\n    line-height: 150%;\n    margin-bottom: 16px;\n    margin-top: 16px;\n}\n\n\n\n#header > div.header__container > div\n{\n    display:none\n}",
+          "domains": [
+            "midiamax.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 120,
+      "name": "diplomatique.org.br",
+      "enabled": true,
+      "update_date": 1772098943340,
+      "sections": [
+        {
+          "code": "#mobile-buttons \n{\n    display:none\n}",
+          "domains": [
+            "diplomatique.org.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 121,
+      "name": "mediatalks.uol.com.br",
+      "enabled": true,
+      "update_date": 1774361873830,
+      "sections": [
+        {
+          "code": "body {\n  font-size: 1rem; /* tamanho base */\n}\np {\n  font-size: 2.2rem;\n  line-height: 1.55;\n}",
+          "domains": [
+            "mediatalks.uol.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 122,
+      "name": "infovaticana.com",
+      "enabled": true,
+      "update_date": 1774530042933,
+      "sections": [
+        {
+          "code": "body > div.rc-anchor.rc-anchor-invisible.rc-anchor-light.rc-anchor-invisible-hover,\n#search-toggle,\n#infovat-lang-1830200740 > button > img,\nbody > div:nth-child(21) > div\n{\n    display:none !important\n}\n\n.single .single-title {\n    text-align: center;\n    font-size: 2rem;\n    line-height: 1.2;\n    margin: .25rem 0 1rem;\n}\n\nimg, video, iframe, embed, object {\n    max-width: 100%;\n    height: auto;\n}\n\np {\n    font-size: 1.9rem;\n    line-height: 1.45;\n}",
+          "domains": [
+            "infovaticana.com"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 123,
+      "name": "www.espn.com.br",
+      "enabled": true,
+      "update_date": 1775557543632,
+      "sections": [
+        {
+          "code": "#article-feed .article .article-header h1 {\n    font-size: 43px;\n    line-height: 1.2;\n    margin-bottom: 102px;\n}\n\n#article-feed .article p {\n    font-size: 38px;\n    line-height: 1.4;\n    margin-bottom: 20px;\n    color: #48494a;\n}",
+          "domains": [
+            "espn.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 124,
+      "name": "www.cnnbrasil.com.br",
+      "enabled": true,
+      "update_date": 1782784739015,
+      "sections": [
+        {
+          "code": "body > header > div > div.header__central__itens,\n#header__trigger,\nbody > header > div > div.header__actions,\nbody > header > div > div.header__menu > div.menu__hamburguer,\n#aw0 > amp-img > img,\n#aw0 > amp-img,\n#google_center_div,\n#menu-menu-interno-internacional,\nbody > header > div.container > div.header__menu > div.menu__encapsulators > ul.menu__editorials > li.ao-vivo-4.menu-item.ao-vivo,\nbody > div.site__content > div.ad__area.ad__area--header,\nbody > header > div.internal__menu.menu__editorials,\n#mid2,\n#img_anch_CP3UuJ_72YwDFWRU3QId4w4FAg > img,\nbody > div.site__content > div.container > div > main > article > div.single-content > div.membrana_reward_blur,\nbody > div.site__content > div.container > div > aside,\n#video_41689-container,\n#header_ads,\nbody > div.sub-menu.sticky.top-14.z-40.w-full.border-b.border-b-neutral-200.bg-white.text-neutral-400.transition-all.duration-300.lg\\:top-16 > div > ul,\nbody > header > div > div > div.relative.my-auto.flex.items-center.justify-end.gap-4.pe-6.lg\\:order-3,\nbody > section.sticky.top-\\[120px\\].z-20.mb-2.min-h-28.w-full.lg\\:relative.lg\\:top-0,\nbody > div.sub-menu.sticky.top-14.z-30.w-full.border-b.border-b-neutral-200.bg-white.text-neutral-400.transition-all.duration-300.lg\\:top-16 > div,\nbody > header > div > div > div.flex.items-center.justify-start.gap-4.ps-6.lg\\:gap-8 > div > button > svg,\nbody > div.mx-auto.w-full.max-w-\\[1352px\\].px-4.mb-8.mt-2.flex.flex-col.gap-8.lg\\:mb-20.lg\\:mt-8.lg\\:flex-row.lg\\:gap-12 > aside,\nbody > section.sticky.z-\\[25\\].mb-2.min-h-28.w-full.lg\\:relative.lg\\:top-0.top-\\[120px\\],\nbody > section.sticky.\\!top-0.z-\\[25\\].mb-2.min-h-28.w-full.lg\\:relative.lg\\:top-0,\n#bottom-stick,\n#header-search-form,\n#cnn-id-sdk-root > div > button > div > svg > path:nth-child(2),\n#cnn-id-sdk-root > div > button > div > svg,\nbody > div.relative.mt-12.flex.h-auto.min-h-64.w-full.items-center.justify-center.bg-cover.bg-center.px-4.py-5.pb-0.sm\\:py-0.md\\:max-h-36.md\\:min-h-36.md\\:px-6 > div.absolute.inset-0.bg-red-700.opacity-10,\nbody > div.relative.mt-12.flex.h-auto.min-h-64.w-full.items-center.justify-center.bg-cover.bg-center.px-4.py-5.pb-0.sm\\:py-0.md\\:max-h-36.md\\:min-h-36.md\\:px-6 > div.relative.mx-auto.mt-0.flex.w-full.max-w-\\[1352px\\].flex-row.items-center.justify-between.md\\:flex-row > div.flex.w-full.flex-col.justify-between.pl-0.md\\:flex-row.md\\:pl-6 > div.flex.max-w-full.flex-col.md\\:max-w-2xl.md\\:justify-start > p,\nbody > div.sub-menu.z-30.w-full.border-b.border-b-neutral-200.bg-white.text-neutral-400.transition-all.duration-300.lg\\:sticky.lg\\:top-14.xl\\:top-16 > div > ul,\nbody > div.relative.mt-12.flex.h-auto.min-h-64.w-full.items-center.justify-center.bg-cover.bg-center.px-4.py-5.pb-0.sm\\:py-0.md\\:max-h-36.md\\:min-h-36.md\\:px-6,\nbody > header > div > div > ul,\nbody > header > div > div > div.relative.my-auto.flex.items-center.justify-end.gap-2.pe-6.lg\\:order-3.lg\\:gap-4 {\n    display: none !important\n}\n\n.content-head__title {\n    font-size: 6rem;\n    line-height: 4rem;\n    letter-spacing: 0rem;\n}\n\nbody > div.site__content > div.container > div > main > article > header > h1 {\n    margin-top: 10.7px;\n}\n\nbody > header {\n    --header-mobi-h: 30px;\n}\n\nbody > header > div > div.header__menu > a {\n    height: 31px;\n}\n\np {\n    line-height: 22px !important;\n}\n.text-lg {\n    font-size: 1.125rem;\n}\n\nbody > header {\n    margin-bottom: -5px !important;\n}\n\nbody > header > div.container {\n    height: 41px !important;\n}\n\n\np {\n    line-height: 27.1px !important;\n}",
+          "domains": [
+            "cnnbrasil.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 125,
+      "name": "www.band.com.br",
+      "enabled": true,
+      "update_date": 1782782022528,
+      "sections": [
+        {
+          "code": "body > div.contents > div.flex.items-center.justify-center.border-b.bg-white.text-center.sticky.top-\\[68px\\].z-40.w-full.transition-all.duration-600.py-3,\nbody > div.contents > div.flex.min-h-screen.flex-col > nav,\n#wrapper-banner-1190x250-area-1-1 > div,\n#wrapper-banner-1190x250-area-1-1,\nbody > div.contents > header > div > div.flex.items-center.gap-3 > a,\nbody > div.contents > header > div > div.flex.items-center.gap-5 > button > svg,\nbody > div.contents > div.flex.items-center.justify-center.border-b.bg-white.text-center.sticky.top-\\[68px\\].z-40.w-full.transition-all.duration-600.py-1\\.5\n{\n    display:none !important\n}\n\n\n:root, :host {\n\n    --text-2xl: 2.9rem;\n   \n}\n\n.leading-\\[28px\\] \n\n{\n    line-height: 53px;\n}\n\n.text-\\[20px\\] \n{\n    font-size: 33px;\n}\n\np {\n    line-height: 40px !important;\n}",
+          "domains": [
+            "band.com.br"
+          ],
+          "url_prefixes": [],
+          "urls": [],
+          "inferred_scope": true
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "last_import_report": {
+    "styles_found": 113,
+    "imported": 99,
+    "skipped": [
+      {
+        "id": 32,
+        "name": "Copy Instagram Images",
+        "reason": "Instagram adiado"
+      },
+      {
+        "id": 66,
+        "name": "Instagram - Layout For Laptop",
+        "reason": "Instagram adiado"
+      },
+      {
+        "id": 67,
+        "name": "Dark Instagram(Wide Screen Message)By Ragab Hesham",
+        "reason": "Instagram adiado"
+      },
+      {
+        "id": 68,
+        "name": "Instagram Larger Feed",
+        "reason": "Instagram adiado"
+      },
+      {
+        "id": 69,
+        "name": "less distracting instagram mobile",
+        "reason": "Instagram adiado"
+      },
+      {
+        "id": 70,
+        "name": "Dark Instagram++",
+        "reason": "Instagram adiado"
+      },
+      {
+        "id": 71,
+        "name": "Instagram - Save image as",
+        "reason": "Instagram adiado"
+      },
+      {
+        "id": 72,
+        "name": "Instagram Blacked",
+        "reason": "Instagram adiado"
+      },
+      {
+        "id": 73,
+        "name": "Remove stupid Threads logo from pages",
+        "reason": "Instagram adiado"
+      },
+      {
+        "id": 74,
+        "name": "Dark Instagram",
+        "reason": "Instagram adiado"
+      }
+    ],
+    "resolved_conflicts": [
+      {
+        "portal": "cartacapital.com.br",
+        "winner": 43,
+        "discarded": [
+          59
+        ],
+        "rule": "mais recente"
+      },
+      {
+        "portal": "cmjornal.pt",
+        "winner": 107,
+        "discarded": [
+          65
+        ],
+        "rule": "mais recente"
+      },
+      {
+        "portal": "africanews.com",
+        "winner": 94,
+        "discarded": [
+          88
+        ],
+        "rule": "mais recente"
+      }
+    ],
+    "discarded_ids": [
+      59,
+      65,
+      88,
+      112
+    ]
+  }
+}
