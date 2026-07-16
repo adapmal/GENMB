@@ -4,8 +4,10 @@ import base64
 import html
 import json
 import mimetypes
+import os
 import re
 import shutil
+import sys
 import unicodedata
 import uuid
 from dataclasses import asdict, dataclass, field
@@ -637,14 +639,14 @@ def render_template_page(identity: VisualIdentity, width: int, height: int, fide
 *{{box-sizing:border-box}} html,body{{margin:0;width:{width}px;height:{height}px;overflow:hidden;background:{identity.body_bg};color:{identity.body_color}}}
 body{{font-family:{identity.body_font};}}
 .source-header{{height:{header_height}px;background:{identity.header_bg};color:{identity.header_fg};display:flex;align-items:center;justify-content:{"center" if identity.header_align=="center" else "flex-start"};padding:0 {max(26,round(width*.035))}px;border-bottom:{identity.divider_size}px solid {identity.accent};}}
-.source-logo{{max-height:{round(header_height*identity.logo_scale)}px;max-width:{round(width*.42)}px;object-fit:contain;filter:{identity.logo_filter}}}
+.source-logo{{height:{round(header_height*.55*identity.logo_scale)}px;width:auto;max-width:{round(width*.88)}px;object-fit:contain;filter:{identity.logo_filter};transform-origin:{"center center" if identity.header_align=="center" else "left center"}}}
 .source-fallback{{font-size:{round(header_height*.3)}px;font-weight:700;white-space:nowrap}}
 main{{height:{height-header_height}px;position:relative}}
 .title-stage{{height:100%;padding:{round(height*.045)}px {round(width*.055)}px {round(height*.085)}px;display:flex;align-items:center}}
 h1{{font-family:{identity.title_font};font-weight:{identity.title_weight};color:{identity.title_color};line-height:1.02;letter-spacing:-.025em;margin:0;overflow-wrap:anywhere;width:100%}}
-.text-stage{{height:100%;padding:{round(height*.065)}px {round(width*.07)}px;display:flex;align-items:flex-start}}
+.text-stage{{height:100%;padding:{round(height*.065)}px {round(width*.07)}px;display:flex;align-items:center;justify-content:center;overflow:hidden}}
 .text-stage article{{width:100%;max-width:{round(width*.9)}px;margin:0 auto}}
-.text-stage p{{font-size:{body_font_px}px;font-weight:{identity.body_weight};line-height:1.38;letter-spacing:-.012em;margin:0;color:{identity.body_color}}}
+.text-stage p{{font-size:{body_font_px}px;font-weight:{identity.body_weight};font-variation-settings:"wght" {identity.body_weight};font-synthesis:weight;line-height:1.32;letter-spacing:-.006em;margin:0;color:{identity.body_color}}}
 .nc-highlight{{background:#ffe132;color:inherit;border-radius:.10em;padding:0;margin:0;box-shadow:.08em .10em .13em rgba(0,0,0,.20);box-decoration-break:clone;-webkit-box-decoration-break:clone}}
 .image-stage{{height:100%;padding:{round(height*.018)}px {round(width*.022)}px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:{round(height*.012)}px}}
 .image-box{{width:100%;flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden}}
@@ -666,8 +668,8 @@ def pagination_measure_page(identity: VisualIdentity, width: int, height: int, f
     logo_html = f'<img class="source-logo" src="{html.escape(logo, quote=True)}" alt="">' if logo else ''
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>
 *{{box-sizing:border-box}}html,body{{margin:0;width:{width}px;height:{height}px;overflow:hidden;background:{identity.body_bg}}}
-body{{font-family:{identity.body_font}}}.source-header{{height:{header_height}px;background:{identity.header_bg};display:flex;align-items:center;justify-content:{"center" if identity.header_align=="center" else "flex-start"};padding:0 {max(26,round(width*.035))}px;border-bottom:{identity.divider_size}px solid {identity.accent}}}.source-logo{{max-height:{round(header_height*identity.logo_scale)}px;max-width:{round(width*.42)}px;object-fit:contain;filter:{identity.logo_filter}}}
-main{{height:{height-header_height}px}}.text-stage{{height:100%;padding:{round(height*.065)}px {round(width*.07)}px;overflow:hidden}}article{{width:100%;max-width:{round(width*.9)}px;margin:0 auto}}p{{font-size:{body_font_px}px;font-weight:{identity.body_weight};line-height:1.38;letter-spacing:-.012em;margin:0;color:{identity.body_color}}}.tok{{white-space:pre-wrap}}
+body{{font-family:{identity.body_font}}}.source-header{{height:{header_height}px;background:{identity.header_bg};display:flex;align-items:center;justify-content:{"center" if identity.header_align=="center" else "flex-start"};padding:0 {max(26,round(width*.035))}px;border-bottom:{identity.divider_size}px solid {identity.accent}}}.source-logo{{height:{round(header_height*.55*identity.logo_scale)}px;width:auto;max-width:{round(width*.88)}px;object-fit:contain;filter:{identity.logo_filter};transform-origin:{"center center" if identity.header_align=="center" else "left center"}}}
+main{{height:{height-header_height}px}}.text-stage{{height:100%;padding:{round(height*.065)}px {round(width*.07)}px;overflow:hidden}}article{{width:100%;max-width:{round(width*.9)}px;margin:0 auto}}p{{font-size:{body_font_px}px;font-weight:{identity.body_weight};font-variation-settings:"wght" {identity.body_weight};font-synthesis:weight;line-height:1.32;letter-spacing:-.006em;margin:0;color:{identity.body_color}}}.tok{{white-space:pre-wrap}}
 </style></head><body><header class="source-header">{logo_html}</header><main><section class="text-stage"><article><p>{spans}</p></article></section></main></body></html>'''
 
 
@@ -942,9 +944,10 @@ def generate_batch_archive(raw_text: str, width: int, height: int, mode: str, bo
     for job, check in zip(validated["jobs"], validated["results"]):
         domain = domain_from_url(job["url"])
         manual = profiles.get(domain, {})
+        brand = load_brand_profiles().get(brand_key_for_url(job["url"]), {})
         auto_css = (check.get("style") or {}).get("css", "")
         css = manual.get("css", auto_css)
-        font_px = int(manual.get("body_font_px", body_font_px))
+        font_px = int(brand.get("body_font_px", manual.get("body_font_px", body_font_px)))
         item_fidelity = 100
         archive = generate_reconstructed_frames(job["url"], job["marked_text"], mode, width, height, css, font_px, item_fidelity, include_images)
         target = batch_dir / f"N{job['number']}"
@@ -1125,28 +1128,125 @@ def api_brand_logo_scan_all():
 
 @app.get("/api/batches/latest")
 def api_latest_batch():
-    if not LATEST_BATCH_FILE.exists(): return jsonify(items=[],batch=None)
-    name=LATEST_BATCH_FILE.read_text(encoding="utf-8").strip(); root=OUTPUT_DIR/name
-    if not root.exists(): return jsonify(items=[],batch=None)
-    items=[]
-    for folder in sorted([x for x in root.iterdir() if x.is_dir()],key=lambda x:x.name):
-        frames=sorted(x.name for x in folder.glob("*.png"))
-        items.append({"folder":folder.name,"frames":[f"/api/batches/{name}/{folder.name}/{fn}" for fn in frames]})
-    return jsonify(batch=name,items=items,download=f"/api/batches/{name}/download")
+    if not LATEST_BATCH_FILE.exists():
+        return jsonify(items=[], batch=None)
+    name = LATEST_BATCH_FILE.read_text(encoding="utf-8").strip()
+    root = OUTPUT_DIR / name
+    if not root.exists():
+        return jsonify(items=[], batch=None)
+    manifest = {}
+    manifest_path = root / "manifest.json"
+    if manifest_path.exists():
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except Exception:
+            manifest = {}
+    meta = {x.get("folder"): x for x in manifest.get("items", [])}
+    items = []
+    for folder in sorted([x for x in root.iterdir() if x.is_dir()], key=lambda x: x.name):
+        frames = sorted(x.name for x in folder.glob("*.png"))
+        item_meta = meta.get(folder.name, {})
+        items.append({
+            "folder": folder.name,
+            "number": item_meta.get("number"),
+            "title": item_meta.get("title", folder.name),
+            "frames": [f"/api/batches/{name}/{folder.name}/{fn}" for fn in frames],
+            "download": f"/api/batches/{name}/{folder.name}/download",
+            "open_folder": f"/api/batches/{name}/{folder.name}/open-folder",
+        })
+    return jsonify(batch=name, items=items, download=f"/api/batches/{name}/download")
+
 
 @app.get("/api/batches/<batch>/<folder>/<filename>")
-def api_batch_image(batch,folder,filename):
-    safe=(OUTPUT_DIR/batch/folder/filename).resolve(); base=OUTPUT_DIR.resolve()
-    if base not in safe.parents or not safe.exists(): return jsonify(error="Arquivo não encontrado"),404
-    return send_file(safe)
+def api_batch_image(batch, folder, filename):
+    safe = (OUTPUT_DIR / batch / folder / filename).resolve()
+    base = OUTPUT_DIR.resolve()
+    if base not in safe.parents or not safe.exists():
+        return jsonify(error="Arquivo não encontrado"), 404
+    response = send_file(safe)
+    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+    return response
+
+
+def _safe_export_name(value: str, limit: int = 70) -> str:
+    value = unicodedata.normalize("NFKD", value or "").encode("ascii", "ignore").decode("ascii")
+    value = re.sub(r"[^A-Za-z0-9]+", "_", value).strip("_")
+    return (value or "noticia")[:limit].rstrip("_")
+
+
+@app.get("/api/batches/<batch>/<folder>/download")
+def api_news_download(batch, folder):
+    root = (OUTPUT_DIR / batch).resolve()
+    target = (root / folder).resolve()
+    base = OUTPUT_DIR.resolve()
+    if base not in target.parents or not target.is_dir():
+        return jsonify(error="Notícia não encontrada"), 404
+    title = folder
+    manifest_path = root / "manifest.json"
+    if manifest_path.exists():
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            item = next((x for x in manifest.get("items", []) if x.get("folder") == folder), None)
+            if item:
+                title = item.get("title") or title
+        except Exception:
+            pass
+    number_match = re.search(r"\d+", folder)
+    number = int(number_match.group()) if number_match else 0
+    filename = f"N{number:02d}_{_safe_export_name(title)}.zip"
+    temp_base = TEMP_DIR / f"download_{batch}_{folder}"
+    archive_path = Path(shutil.make_archive(str(temp_base), "zip", root_dir=root, base_dir=folder))
+    return send_file(archive_path, as_attachment=True, download_name=filename, mimetype="application/zip")
+
 
 @app.get("/api/batches/<batch>/download")
 def api_batch_download(batch):
-    root=(OUTPUT_DIR/batch).resolve(); base=OUTPUT_DIR.resolve()
-    if base not in root.parents or not root.exists(): return jsonify(error="Lote não encontrado"),404
-    archive=Path(str(root)+".zip")
-    if not archive.exists(): archive=Path(shutil.make_archive(str(root),"zip",root_dir=root))
-    return send_file(archive,as_attachment=True,download_name="news_batch_frames.zip")
+    root = (OUTPUT_DIR / batch).resolve()
+    base = OUTPUT_DIR.resolve()
+    if base not in root.parents or not root.exists():
+        return jsonify(error="Lote não encontrado"), 404
+    archive = Path(str(root) + ".zip")
+    if not archive.exists():
+        archive = Path(shutil.make_archive(str(root), "zip", root_dir=root))
+    return send_file(archive, as_attachment=True, download_name="news_batch_frames.zip")
+
+
+def _open_local_path(path: Path) -> None:
+    if os.name == "nt":
+        os.startfile(str(path))  # type: ignore[attr-defined]
+    elif sys.platform == "darwin":
+        import subprocess
+        subprocess.Popen(["open", str(path)])
+    else:
+        import subprocess
+        subprocess.Popen(["xdg-open", str(path)])
+
+
+@app.post("/api/batches/<batch>/<folder>/open-folder")
+def api_open_news_folder(batch, folder):
+    target = (OUTPUT_DIR / batch / folder).resolve()
+    base = OUTPUT_DIR.resolve()
+    if base not in target.parents or not target.is_dir():
+        return jsonify(error="Pasta não encontrada"), 404
+    try:
+        _open_local_path(target)
+        return jsonify(ok=True)
+    except Exception as exc:
+        return jsonify(error=f"Não foi possível abrir a pasta: {exc}"), 400
+
+
+@app.post("/api/batches/<batch>/<folder>/<filename>/open")
+def api_open_current_png(batch, folder, filename):
+    target = (OUTPUT_DIR / batch / folder / filename).resolve()
+    base = OUTPUT_DIR.resolve()
+    if base not in target.parents or not target.is_file() or target.suffix.lower() != ".png":
+        return jsonify(error="PNG não encontrado"), 404
+    try:
+        _open_local_path(target)
+        return jsonify(ok=True)
+    except Exception as exc:
+        return jsonify(error=f"Não foi possível abrir o PNG: {exc}"), 400
+
 
 @app.get("/api/system/info")
 def system_info():
@@ -1257,7 +1357,8 @@ def api_rerender_latest_news():
     manifest=json.loads(manifest_path.read_text(encoding="utf-8")); item=next((x for x in manifest.get("items",[]) if x.get("folder")==folder),None)
     if not item or not item.get("marked_text"): return jsonify(error="A notícia selecionada não possui roteiro salvo."),400
     settings=manifest.get("settings",{}); url=item["url"]; domain=domain_from_url(url); manual=load_profiles().get(domain,{})
-    style=match_registry(url); css=manual.get("css",(style.get("profile") or {}).get("css","")); font_px=int(manual.get("body_font_px",settings.get("body_font_px",68)))
+    brand=load_brand_profiles().get(brand_key_for_url(url),{})
+    style=match_registry(url); css=manual.get("css",(style.get("profile") or {}).get("css","")); font_px=int(brand.get("body_font_px",manual.get("body_font_px",settings.get("body_font_px",68))))
     archive=generate_reconstructed_frames(url,item["marked_text"],settings.get("mode","cumulative"),int(settings.get("width",1406)),int(settings.get("height",1080)),css,font_px,100,bool(settings.get("include_images",True)))
     temp=TEMP_DIR/(folder+"_rerender"); _clear_dir(temp); temp.mkdir(parents=True,exist_ok=True); shutil.unpack_archive(str(archive),str(temp))
     target=root/folder; backup=TEMP_DIR/(folder+"_backup"); _clear_dir(backup)

@@ -1,0 +1,20 @@
+GENMB - pacote de ajustes do Preview e Perfis
+
+1. Feche o GENMB e a janela do terminal.
+2. Faça uma cópia de segurança da pasta C:\Aplicativozinhos\GENMB.
+3. Copie o conteúdo deste pacote para C:\Aplicativozinhos\GENMB e confirme a substituição.
+4. Execute run.bat. Não é necessário executar install.bat novamente.
+5. Teste primeiro com uma notícia curta.
+
+Arquivos modificados:
+- app.py
+- static\app.js
+- templates\index.html
+
+O app.css e brand_profiles.json foram mantidos no pacote para preservar a estrutura, mas não receberam mudanças funcionais nesta correção.
+
+Depois de testar:
+- Abra o GitHub Desktop.
+- Summary: Corrigir preview, tipografia, logos e ZIP por notícia
+- Commit to main
+- Push origin
